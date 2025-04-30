@@ -1,0 +1,529 @@
+,gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0,0022400849,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (10:42 PM EST),period,start,1,0,1
+1,0022400849,4,PT12M00.00S,1,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Jump Ball Hayes vs. Reid: Tip to James,Jump Ball,,1,0,2
+2,0022400849,7,PT11M38.00S,1,1610612747,LAL,1630559,Reaves,A. Reaves,-4,327,33,Made,1,3,0,3,h,Reaves 33' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,3
+3,0022400849,8,PT11M15.00S,1,1610612750,MIN,1641740,Clark,J. Clark,163,199,26,Made,1,3,3,6,v,Clark 26' 3PT Jump Shot (3 PTS) (Reid 1 AST),Made Shot,Jump Shot,1,3,4
+4,0022400849,10,PT11M07.00S,1,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves Kicked Ball Violation Turnover (P1.T1),Turnover,Kicked Ball Violation,1,0,5
+5,0022400849,11,PT10M55.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,-55,122,13,Missed,1,,,0,v,MISS McDaniels 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,6
+6,0022400849,12,PT10M54.00S,1,1610612747,LAL,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,7
+7,0022400849,13,PT10M44.00S,1,1610612747,LAL,1629637,Hayes,J. Hayes,12,15,2,Made,1,5,3,8,h,Hayes 2' Dunk (2 PTS) (Dončić 1 AST),Made Shot,Dunk Shot,1,2,8
+8,0022400849,15,PT10M32.00S,1,1610612750,MIN,1629675,Reid,N. Reid,-154,194,25,Missed,1,,,0,v,MISS Reid 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,9
+9,0022400849,16,PT10M29.00S,1,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+10,0022400849,17,PT10M18.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,53,105,12,Made,1,7,3,10,h,Dončić 12' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,11
+11,0022400849,18,PT09M57.00S,1,1610612750,MIN,201144,Conley,M. Conley,-78,252,26,Missed,1,,,0,v,MISS Conley 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,12
+12,0022400849,19,PT09M54.00S,1,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+13,0022400849,20,PT09M52.00S,1,1610612747,LAL,2544,James,L. James,7,28,3,Made,1,9,3,12,h,James 3' Running Layup (2 PTS) (Dončić 2 AST),Made Shot,Running Layup Shot,1,2,14
+14,0022400849,22,PT09M39.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-132,208,25,Missed,1,,,0,v,MISS A. Edwards 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,15
+15,0022400849,23,PT09M35.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+16,0022400849,24,PT09M30.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-142,207,25,Missed,1,,,0,h,MISS Dončić 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,17
+17,0022400849,25,PT09M26.00S,1,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,18
+18,0022400849,26,PT09M26.00S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P1.T1) (B.Adair),Foul,Shooting,1,0,19
+19,0022400849,28,PT09M26.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,10,3,13,h,Dončić Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,20
+20,0022400849,29,PT09M26.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,11,3,14,h,Dončić Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,21
+21,0022400849,30,PT09M17.00S,1,1610612750,MIN,201144,Conley,M. Conley,116,246,27,Made,1,11,6,17,v,Conley 27' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,22
+22,0022400849,31,PT09M00.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-70,278,29,Missed,1,,,0,h,MISS Dončić 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+23,0022400849,32,PT08M56.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,24
+24,0022400849,33,PT08M46.00S,1,1610612750,MIN,1641740,Clark,J. Clark,-229,1,0,Missed,1,,,0,v,MISS Clark 3PT Jump Shot,Missed Shot,Jump Shot,1,3,25
+25,0022400849,34,PT08M44.00S,1,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,26
+26,0022400849,36,PT08M39.00S,1,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Finney-Smith FOR Hayes,Substitution,,0,0,27
+27,0022400849,38,PT08M39.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Turnover: 5 Second Violation (T#1),Turnover,5 Second Violation,1,0,28
+28,0022400849,39,PT08M29.00S,1,1610612747,LAL,1629060,Hachimura,R. Hachimura,-237,64,25,Missed,1,,,0,h,MISS Hachimura 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,29
+29,0022400849,40,PT08M27.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,30
+30,0022400849,41,PT08M25.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,31
+31,0022400849,41,PT08M25.00S,1,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley STEAL (1 STL),,,1,0,32
+32,0022400849,43,PT08M13.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,168,80,19,Made,1,11,8,19,v,A. Edwards 19' Step Back Jump Shot (2 PTS) (Conley 1 AST),Made Shot,Step Back Jump shot,1,2,33
+33,0022400849,45,PT08M03.00S,1,1610612747,LAL,2544,James,L. James,-58,286,29,Made,1,14,8,22,h,James 29' 3PT Jump Bank Shot (5 PTS) (Reaves 1 AST),Made Shot,Jump Bank Shot,1,3,34
+34,0022400849,47,PT07M48.00S,1,1610612750,MIN,1629675,Reid,N. Reid,-94,247,26,Missed,1,,,0,v,MISS Reid 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,35
+35,0022400849,48,PT07M44.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,36
+36,0022400849,49,PT07M37.00S,1,1610612747,LAL,2544,James,L. James,154,200,25,Missed,1,,,0,h,MISS James 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,37
+37,0022400849,50,PT07M34.00S,1,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,38
+38,0022400849,51,PT07M24.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-1,28,3,Made,1,16,8,24,h,Dončić 3' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,39
+39,0022400849,54,PT06M59.00S,1,1610612750,MIN,1641740,Clark,J. Clark,21,38,4,Missed,1,,,0,v,MISS Clark 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,40
+40,0022400849,55,PT06M57.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,41
+41,0022400849,56,PT06M47.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,67,137,15,Made,1,18,8,26,h,Dončić 15' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,42
+42,0022400849,57,PT06M47.00S,1,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,Clark S.FOUL (P1.T2) (B.Barnaky),Foul,Shooting,1,0,43
+43,0022400849,59,PT06M47.00S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,44
+44,0022400849,60,PT06M47.00S,1,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: DiVincenzo FOR Conley,Substitution,,0,0,45
+45,0022400849,61,PT06M47.00S,1,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,SUB: Alexander-Walker FOR Clark,Substitution,,0,0,46
+46,0022400849,64,PT06M47.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,19,8,27,h,Dončić Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,47
+47,0022400849,65,PT06M31.00S,1,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,48
+48,0022400849,65,PT06M31.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James STEAL (1 STL),,,1,0,49
+49,0022400849,67,PT06M17.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-203,190,28,Missed,1,,,0,h,MISS Dončić 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,50
+50,0022400849,68,PT06M13.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,51
+51,0022400849,69,PT06M02.00S,1,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,-53,61,8,Made,1,19,10,29,v,Alexander-Walker 8' Driving Floating Jump Shot (2 PTS) (DiVincenzo 1 AST),Made Shot,Driving Floating Jump Shot,1,2,52
+52,0022400849,71,PT05M48.00S,1,1610612747,LAL,2544,James,L. James,-180,194,26,Made,1,22,10,32,h,James 26' 3PT Jump Shot (8 PTS) (Dončić 3 AST),Made Shot,Jump Shot,1,3,53
+53,0022400849,73,PT05M37.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,-104,242,26,Missed,1,,,0,v,MISS DiVincenzo 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,54
+54,0022400849,74,PT05M34.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,55
+55,0022400849,76,PT05M34.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,SUB: Vincent FOR James,Substitution,,0,0,56
+56,0022400849,77,PT05M34.00S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Shannon Jr. FOR Reid,Substitution,,0,0,57
+57,0022400849,80,PT05M25.00S,1,1610612747,LAL,1629060,Hachimura,R. Hachimura,132,228,26,Missed,1,,,0,h,MISS Hachimura 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,58
+58,0022400849,81,PT05M22.00S,1,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,Finney-Smith REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,59
+59,0022400849,82,PT05M16.00S,1,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,-186,186,26,Missed,1,,,0,h,MISS Finney-Smith 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,60
+60,0022400849,83,PT05M12.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,61
+61,0022400849,84,PT05M11.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,2,34,3,Made,1,24,10,34,h,Dončić 3' Driving Finger Roll Layup (11 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,62
+62,0022400849,86,PT04M51.00S,1,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,233,14,0,Missed,1,,,0,v,MISS Alexander-Walker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,63
+63,0022400849,87,PT04M47.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,64
+64,0022400849,88,PT04M35.00S,1,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. P.FOUL (P1.T3) (B.Adair),Foul,Personal,1,0,65
+65,0022400849,90,PT04M35.00S,1,1610612747,LAL,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,SUB: Vanderbilt FOR Hachimura,Substitution,,0,0,66
+66,0022400849,92,PT04M29.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić Out of Bounds - Bad Pass Turnover Turnover (P1.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,67
+67,0022400849,93,PT04M08.00S,1,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,234,52,24,Missed,1,,,0,v,MISS Shannon Jr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,68
+68,0022400849,94,PT04M05.00S,1,1610612747,LAL,1629216,Vincent,G. Vincent,0,0,0,,0,,,0,h,Vincent REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,69
+69,0022400849,95,PT03M54.00S,1,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,229,63,24,Made,1,27,10,37,h,Vanderbilt 24' 3PT Jump Shot (3 PTS) (Dončić 4 AST),Made Shot,Jump Shot,1,3,70
+70,0022400849,97,PT03M42.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,54,260,27,Missed,1,,,0,v,MISS A. Edwards 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,71
+71,0022400849,98,PT03M40.00S,1,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,72
+72,0022400849,99,PT03M36.00S,1,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,73
+73,0022400849,99,PT03M36.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (1 STL),,,1,0,74
+74,0022400849,101,PT03M24.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,-228,-15,0,Made,1,27,13,40,v,DiVincenzo 3PT Jump Shot (3 PTS) (A. Edwards 1 AST),Made Shot,Jump Shot,1,3,75
+75,0022400849,103,PT03M04.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-16,134,13,Missed,1,,,0,h,MISS Dončić 13' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,76
+76,0022400849,104,PT03M03.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,77
+77,0022400849,105,PT02M51.00S,1,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker Out of Bounds - Bad Pass Turnover Turnover (P2.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,78
+78,0022400849,106,PT02M51.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,79
+79,0022400849,107,PT02M51.00S,1,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,SUB: James FOR Reaves,Substitution,,0,0,80
+80,0022400849,108,PT02M51.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,SUB: Goodwin FOR Dončić,Substitution,,0,0,81
+81,0022400849,109,PT02M51.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Dillingham FOR McDaniels,Substitution,,0,0,82
+82,0022400849,113,PT02M40.00S,1,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker P.FOUL (P1.T4) (B.Barnaky),Foul,Personal,1,0,83
+83,0022400849,115,PT02M29.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,84
+84,0022400849,115,PT02M29.00S,1,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,Dillingham STEAL (1 STL),,,1,0,85
+85,0022400849,117,PT02M25.00S,1,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,-212,124,25,Missed,1,,,0,v,MISS Alexander-Walker 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,86
+86,0022400849,118,PT02M23.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,87
+87,0022400849,120,PT02M08.00S,1,1610612747,LAL,1630692,Goodwin,J. Goodwin,-12,42,4,Made,1,29,13,42,h,Goodwin 4' Cutting Layup Shot (2 PTS) (James 1 AST),Made Shot,Cutting Layup Shot,1,2,88
+88,0022400849,122,PT01M54.00S,1,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt P.FOUL (P1.T1) (B.Adair),Foul,Personal,1,0,89
+89,0022400849,124,PT01M54.00S,1,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,SUB: Hachimura FOR Finney-Smith,Substitution,,0,0,90
+90,0022400849,126,PT01M40.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Turnover: Shot Clock (T#4),Turnover,Shot Clock Turnover,1,0,91
+91,0022400849,127,PT01M29.00S,1,1610612747,LAL,1630692,Goodwin,J. Goodwin,0,0,0,,0,,,0,h,Goodwin Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,92
+92,0022400849,129,PT01M21.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James S.FOUL (P1.PN) (J.Williams),Foul,Shooting,1,0,93
+93,0022400849,131,PT01M21.00S,1,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,29,14,43,v,Shannon Jr. Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,94
+94,0022400849,132,PT01M21.00S,1,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,29,15,44,v,Shannon Jr. Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,95
+95,0022400849,133,PT01M00.00S,1,1610612747,LAL,1629216,Vincent,G. Vincent,11,79,8,Made,1,31,15,46,h,Vincent 8' Driving Floating Jump Shot (2 PTS) (James 2 AST),Made Shot,Driving Floating Jump Shot,1,2,96
+96,0022400849,136,PT00M49.40S,1,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,-224,-8,0,Missed,1,,,0,v,MISS Alexander-Walker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,97
+97,0022400849,137,PT00M47.10S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,1,0,98
+98,0022400849,139,PT00M33.60S,1,1610612747,LAL,1630692,Goodwin,J. Goodwin,7,31,3,Missed,1,,,0,h,MISS Goodwin 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,99
+99,0022400849,140,PT00M31.50S,1,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,100
+100,0022400849,141,PT00M28.60S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-17,16,2,Made,1,31,17,48,v,A. Edwards 2' Running Layup (4 PTS) (Shannon Jr. 1 AST),Made Shot,Running Layup Shot,1,2,101
+101,0022400849,143,PT00M11.20S,1,1610612747,LAL,2544,James,L. James,12,29,3,Made,1,33,17,50,h,James 3' Driving Finger Roll Layup (10 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,102
+102,0022400849,150,PT00M02.80S,1,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,Dillingham Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,103
+103,0022400849,150,PT00M02.80S,1,1610612747,LAL,1630692,Goodwin,J. Goodwin,0,0,0,,0,,,0,h,Goodwin STEAL (1 STL),,,1,0,104
+104,0022400849,147,PT00M00.30S,1,1610612747,LAL,1629216,Vincent,G. Vincent,17,547,55,Missed,1,,,0,h,MISS Vincent 55' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,105
+105,0022400849,148,PT00M00.30S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,106
+106,0022400849,149,PT00M00.00S,1,0,,0,,,0,0,0,,0,33,17,50,,End of 1st Period (11:07 PM EST),period,end,1,0,107
+107,0022400849,164,PT12M00.00S,2,0,,0,,,0,0,0,,0,33,17,50,,Start of 2nd Period (11:11 PM EST),period,start,0,0,108
+108,0022400849,178,PT12M00.00S,2,0,,162,,,0,0,0,,0,33,17,50,,Instant Replay2nd Period (11:11 PM EST),Instant Replay,Altercation Ruling,0,0,109
+109,0022400849,192,PT12M00.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,,"Double Technical - A. Edwards, Vanderbilt (J.Williams)",Foul,Double Technical,0,0,110
+110,0022400849,165,PT11M41.00S,2,1610612750,MIN,1642265,Dillingham,R. Dillingham,31,42,5,Made,1,33,19,52,v,Dillingham 5' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,111
+111,0022400849,166,PT11M24.00S,2,1610612747,LAL,1629637,Hayes,J. Hayes,-9,42,4,Missed,1,,,0,h,MISS Hayes 4' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,112
+112,0022400849,166,PT11M24.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker BLOCK (1 BLK),,,1,2,113
+113,0022400849,168,PT11M22.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,114
+114,0022400849,169,PT11M17.00S,2,1610612750,MIN,201144,Conley,M. Conley,183,195,27,Made,1,33,22,55,v,Conley 27' 3PT Running Jump Shot (6 PTS) (Dillingham 1 AST),Made Shot,Running Jump Shot,1,3,115
+115,0022400849,171,PT10M59.00S,2,1610612747,LAL,1629060,Hachimura,R. Hachimura,-230,4,0,Made,1,36,22,58,h,Hachimura 3PT Jump Shot (3 PTS) (James 3 AST),Made Shot,Jump Shot,1,3,116
+116,0022400849,173,PT10M35.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,-61,84,10,Missed,1,,,0,v,MISS McDaniels 10' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,117
+117,0022400849,174,PT10M33.00S,2,1610612747,LAL,1630692,Goodwin,J. Goodwin,0,0,0,,0,,,0,h,Goodwin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,118
+118,0022400849,175,PT10M17.00S,2,1610612747,LAL,1630692,Goodwin,J. Goodwin,-214,153,26,Made,1,39,22,61,h,Goodwin 26' 3PT Jump Shot (5 PTS) (Hachimura 1 AST),Made Shot,Jump Shot,1,3,119
+119,0022400849,177,PT09M52.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,15,8,2,Made,1,39,24,63,v,McDaniels 2' Cutting Layup Shot (2 PTS) (Conley 2 AST),Made Shot,Cutting Layup Shot,1,2,120
+120,0022400849,180,PT09M32.00S,2,1610612747,LAL,2544,James,L. James,-130,251,28,Made,1,42,24,66,h,James 28' 3PT Jump Shot (13 PTS) (Goodwin 1 AST),Made Shot,Jump Shot,1,3,121
+121,0022400849,182,PT09M18.00S,2,1610612750,MIN,1629675,Reid,N. Reid,72,30,8,Missed,1,,,0,v,MISS Reid 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,122
+122,0022400849,183,PT09M17.00S,2,1610612747,LAL,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,123
+123,0022400849,184,PT09M06.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid P.FOUL (P2.T1) (J.Williams),Foul,Personal,1,0,124
+124,0022400849,186,PT09M06.00S,2,1610612747,LAL,1630692,Goodwin,J. Goodwin,0,0,0,,0,,,0,h,SUB: Knecht FOR Goodwin,Substitution,,0,0,125
+125,0022400849,188,PT08M59.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,-74,58,9,Made,1,44,24,68,h,Reaves 9' Turnaround Bank Shot (5 PTS),Made Shot,Turnaround Bank shot,1,2,126
+126,0022400849,189,PT08M59.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,127
+127,0022400849,190,PT08M59.00S,2,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,SUB: Clark FOR Dillingham,Substitution,,0,0,128
+128,0022400849,194,PT08M49.00S,2,1610612750,MIN,1629675,Reid,N. Reid,-65,257,27,Missed,1,,,0,v,MISS Reid 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,129
+129,0022400849,195,PT08M46.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,130
+130,0022400849,196,PT08M43.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,248,29,25,Missed,1,,,0,v,MISS McDaniels 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,131
+131,0022400849,197,PT08M39.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,132
+132,0022400849,198,PT08M37.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,133
+133,0022400849,198,PT08M37.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves STEAL (1 STL),,,1,0,134
+134,0022400849,201,PT08M25.00S,2,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Dončić FOR Hayes,Substitution,,0,0,135
+135,0022400849,203,PT08M17.00S,2,1610612747,LAL,2544,James,L. James,-190,181,26,Made,1,47,24,71,h,James 26' 3PT Jump Shot (16 PTS) (Hachimura 2 AST),Made Shot,Jump Shot,1,3,136
+136,0022400849,205,PT08M00.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,10,22,2,Made,1,47,26,73,v,Alexander-Walker 2' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,137
+137,0022400849,207,PT07M40.00S,2,1610612747,LAL,1642261,Knecht,D. Knecht,55,112,12,Missed,1,,,0,h,MISS Knecht 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,138
+138,0022400849,208,PT07M40.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,139
+139,0022400849,209,PT07M28.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,4,4,1,Made,1,47,28,75,v,McDaniels 1' Driving Floating Jump Shot (4 PTS) (Conley 3 AST),Made Shot,Driving Floating Jump Shot,1,2,140
+140,0022400849,211,PT07M28.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić P.FOUL (P1.T1) (B.Adair),Foul,Personal,1,0,141
+141,0022400849,214,PT07M28.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,SUB: Finney-Smith FOR James,Substitution,,0,0,142
+142,0022400849,215,PT07M28.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,SUB: A. Edwards FOR Alexander-Walker,Substitution,,0,0,143
+143,0022400849,218,PT07M28.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,47,29,76,v,McDaniels Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,144
+144,0022400849,220,PT07M16.00S,2,1610612747,LAL,1629060,Hachimura,R. Hachimura,6,32,3,Missed,1,,,0,h,MISS Hachimura 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,145
+145,0022400849,221,PT07M14.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,146
+146,0022400849,222,PT07M01.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,-230,-16,0,Missed,1,,,0,v,MISS McDaniels 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+147,0022400849,223,PT06M58.00S,2,1610612747,LAL,1642261,Knecht,D. Knecht,0,0,0,,0,,,0,h,Knecht REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,148
+148,0022400849,224,PT06M48.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,Timberwolves T.Foul (Def. 3 Sec McDaniels ) (J.Williams),Foul,Defense 3 Second,1,0,149
+149,0022400849,225,PT06M48.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,48,29,77,h,Reaves Free Throw Technical (6 PTS),Free Throw,Free Throw Technical,1,0,150
+150,0022400849,226,PT06M38.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,-21,275,28,Missed,1,,,0,h,MISS Dončić 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,151
+151,0022400849,227,PT06M36.00S,2,1610612747,LAL,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,152
+152,0022400849,228,PT06M25.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,-115,186,22,Missed,1,,,0,h,MISS Reaves 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,153
+153,0022400849,229,PT06M23.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,154
+154,0022400849,231,PT06M20.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves Bad Pass Turnover (P3.T7),Turnover,Bad Pass,1,0,155
+155,0022400849,231,PT06M20.00S,2,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley STEAL (2 STL),,,1,0,156
+156,0022400849,233,PT06M15.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid Offensive Charge Foul (P3) (B.Adair),Foul,Offensive Charge,1,0,157
+157,0022400849,235,PT06M15.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid Offensive Foul Turnover (P2.T7),Turnover,Offensive Foul Turnover,1,0,158
+158,0022400849,236,PT06M06.00S,2,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,Clark S.FOUL (P2.T2) (B.Barnaky),Foul,Shooting,1,0,159
+159,0022400849,238,PT06M06.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,MISS Dončić Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,160
+160,0022400849,239,PT06M06.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,161
+161,0022400849,240,PT06M06.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Shannon Jr. FOR Reid,Substitution,,0,0,162
+162,0022400849,242,PT06M06.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,49,29,78,h,Dončić Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,163
+163,0022400849,243,PT05M46.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,-93,148,17,Missed,1,,,0,v,MISS A. Edwards 17' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,164
+164,0022400849,244,PT05M42.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,165
+165,0022400849,245,PT05M25.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,-21,269,27,Missed,1,,,0,h,MISS Reaves 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+166,0022400849,246,PT05M24.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,167
+167,0022400849,247,PT05M17.00S,2,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,15,15,2,Made,1,49,31,80,v,Shannon Jr. 2' Running Finger Roll Layup (4 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,168
+168,0022400849,249,PT05M01.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,-62,137,15,Made,1,51,31,82,h,Reaves 15' Driving Floating Bank Jump Shot (8 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,169
+169,0022400849,250,PT05M01.00S,2,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,Clark S.FOUL (P3.T3) (B.Barnaky),Foul,Shooting,1,0,170
+170,0022400849,252,PT05M01.00S,2,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,SUB: Alexander-Walker FOR Clark,Substitution,,0,0,171
+171,0022400849,262,PT05M01.00S,2,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: DiVincenzo FOR Conley,Substitution,,0,0,172
+172,0022400849,254,PT05M01.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,52,31,83,h,Reaves Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,173
+173,0022400849,255,PT04M48.00S,2,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,-2,25,3,Made,1,52,33,85,v,Shannon Jr. 3' Driving Layup (6 PTS) (A. Edwards 2 AST),Made Shot,Driving Layup Shot,1,2,174
+174,0022400849,257,PT04M35.00S,2,1610612747,LAL,1642261,Knecht,D. Knecht,-230,49,24,Missed,1,,,0,h,MISS Knecht 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,175
+175,0022400849,258,PT04M33.00S,2,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,176
+176,0022400849,259,PT04M30.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,-225,78,24,Missed,1,,,0,v,MISS Alexander-Walker 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,177
+177,0022400849,260,PT04M27.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,178
+178,0022400849,261,PT04M20.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,179
+179,0022400849,264,PT04M20.00S,2,1610612747,LAL,1642261,Knecht,D. Knecht,0,0,0,,0,,,0,h,SUB: Vanderbilt FOR Knecht,Substitution,,0,0,180
+180,0022400849,265,PT04M20.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,SUB: Vincent FOR Reaves,Substitution,,0,0,181
+181,0022400849,266,PT04M20.00S,2,1610612747,LAL,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,SUB: James FOR Hachimura,Substitution,,0,0,182
+182,0022400849,270,PT04M03.00S,2,1610612747,LAL,1629216,Vincent,G. Vincent,148,249,29,Missed,1,,,0,h,MISS Vincent 29' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,183
+183,0022400849,271,PT04M01.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,184
+184,0022400849,272,PT03M51.00S,2,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,-12,52,5,Missed,1,,,0,v,MISS Shannon Jr. 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,185
+185,0022400849,273,PT03M48.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,186
+186,0022400849,274,PT03M42.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels S.FOUL (P1.T4) (J.Williams),Foul,Shooting,1,0,187
+187,0022400849,276,PT03M42.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,MISS Dončić Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,188
+188,0022400849,277,PT03M42.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,189
+189,0022400849,278,PT03M42.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,53,33,86,h,Dončić Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,190
+190,0022400849,279,PT03M31.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,LAKERS T.Foul (Def. 3 Sec James ) (J.Williams),Foul,Defense 3 Second,1,0,191
+191,0022400849,280,PT03M31.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,53,34,87,v,A. Edwards Free Throw Technical (5 PTS),Free Throw,Free Throw Technical,1,0,192
+192,0022400849,281,PT03M19.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,233,46,24,Missed,1,,,0,v,MISS McDaniels 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,193
+193,0022400849,282,PT03M15.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,194
+194,0022400849,283,PT03M09.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,38,107,11,Missed,1,,,0,h,MISS Dončić 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,195
+195,0022400849,284,PT03M07.00S,2,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,196
+196,0022400849,285,PT02M51.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,-183,180,26,Made,1,53,37,90,v,A. Edwards 26' 3PT Jump Shot (8 PTS) (McDaniels 1 AST),Made Shot,Jump Shot,1,3,197
+197,0022400849,287,PT02M25.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,120,274,30,Missed,1,,,0,h,MISS Dončić 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,198
+198,0022400849,288,PT02M23.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,199
+199,0022400849,289,PT02M23.00S,2,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,Finney-Smith L.B.FOUL (P1.T2) (J.Williams),Foul,Loose Ball,1,0,200
+200,0022400849,291,PT02M23.00S,2,1610612747,LAL,1629216,Vincent,G. Vincent,0,0,0,,0,,,0,h,SUB: Reaves FOR Vincent,Substitution,,0,0,201
+201,0022400849,292,PT02M23.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Garza FOR McDaniels,Substitution,,0,0,202
+202,0022400849,295,PT02M11.00S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt S.FOUL (P2.T3) (B.Barnaky),Foul,Shooting,1,0,203
+203,0022400849,297,PT02M11.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,MISS Alexander-Walker Free Throw 1 of 3,Free Throw,Free Throw 1 of 3,1,0,204
+204,0022400849,298,PT02M11.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,205
+205,0022400849,299,PT02M11.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,MISS Alexander-Walker Free Throw 2 of 3,Free Throw,Free Throw 2 of 3,1,0,206
+206,0022400849,300,PT02M11.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,207
+207,0022400849,301,PT02M11.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,53,38,91,v,Alexander-Walker Free Throw 3 of 3 (5 PTS),Free Throw,Free Throw 3 of 3,1,0,208
+208,0022400849,302,PT01M58.00S,2,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo S.FOUL (P1.PN) (B.Barnaky),Foul,Shooting,1,0,209
+209,0022400849,304,PT01M58.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,MISS James Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,210
+210,0022400849,305,PT01M58.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,211
+211,0022400849,306,PT01M58.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,54,38,92,h,James Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,212
+212,0022400849,307,PT01M41.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,-219,122,25,Missed,1,,,0,v,MISS Alexander-Walker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,213
+213,0022400849,308,PT01M40.00S,2,1610612750,MIN,1630568,Garza,L. Garza,0,0,0,,0,,,0,v,Garza REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,214
+214,0022400849,309,PT01M40.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić S.FOUL (P2.T4) (B.Barnaky),Foul,Shooting,1,0,215
+215,0022400849,311,PT01M40.00S,2,1610612750,MIN,1630568,Garza,L. Garza,0,0,0,,0,54,39,93,v,Garza Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,216
+216,0022400849,312,PT01M40.00S,2,1610612750,MIN,1630568,Garza,L. Garza,0,0,0,,0,,,0,v,MISS Garza Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,217
+217,0022400849,313,PT01M39.00S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,218
+218,0022400849,314,PT01M20.00S,2,1610612747,LAL,2544,James,L. James,233,36,24,Missed,1,,,0,h,MISS James 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,219
+219,0022400849,315,PT01M19.00S,2,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,220
+220,0022400849,316,PT01M09.00S,2,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,241,62,25,Missed,1,,,0,v,MISS Alexander-Walker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,221
+221,0022400849,317,PT01M06.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,222
+222,0022400849,319,PT01M02.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves P.FOUL (P1.PN) (B.Barnaky),Foul,Personal,1,0,223
+223,0022400849,321,PT01M02.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,54,40,94,v,A. Edwards Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,224
+224,0022400849,322,PT01M02.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,54,41,95,v,A. Edwards Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,225
+225,0022400849,323,PT00M53.50S,2,1610612747,LAL,2544,James,L. James,-5,23,2,Made,1,56,41,97,h,James 2' Alley Oop Dunk (19 PTS) (Vanderbilt 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,226
+226,0022400849,325,PT00M32.90S,2,1610612750,MIN,1630162,Edwards,A. Edwards,-206,168,27,Made,1,56,44,100,v,A. Edwards 27' 3PT Step Back Jump Shot (13 PTS),Made Shot,Step Back Jump shot,1,3,227
+227,0022400849,326,PT00M22.20S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,9,39,4,Made,1,58,44,102,h,Vanderbilt 4' Driving Finger Roll Layup (5 PTS) (Reaves 2 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,228
+228,0022400849,328,PT00M02.30S,2,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,-234,-10,0,Made,1,58,47,105,v,Shannon Jr. 3PT Jump Shot (9 PTS) (A. Edwards 3 AST),Made Shot,Jump Shot,1,3,229
+229,0022400849,330,PT00M00.30S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,146,719,73,Missed,1,,,0,h,MISS Vanderbilt 73' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,230
+230,0022400849,331,PT00M00.10S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,231
+231,0022400849,332,PT00M00.00S,2,0,,0,,,0,0,0,,0,58,47,105,,End of 2nd Period (11:39 PM EST),period,end,1,0,232
+232,0022400849,343,PT12M00.00S,3,0,,0,,,0,0,0,,0,58,47,105,,Start of 3rd Period (11:55 PM EST),period,start,0,0,233
+233,0022400849,345,PT11M35.00S,3,1610612750,MIN,1629675,Reid,N. Reid,184,209,28,Missed,1,,,0,v,MISS Reid 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,234
+234,0022400849,346,PT11M33.00S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,235
+235,0022400849,347,PT11M21.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,-2,35,4,Made,1,60,47,107,h,Reaves 4' Driving Floating Jump Shot (11 PTS),Made Shot,Driving Floating Jump Shot,1,2,236
+236,0022400849,348,PT11M08.00S,3,1610612750,MIN,1629675,Reid,N. Reid,10,21,2,Missed,1,,,0,v,MISS Reid 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,237
+237,0022400849,348,PT11M08.00S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes BLOCK (1 BLK),,,1,2,238
+238,0022400849,350,PT11M08.00S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,239
+239,0022400849,352,PT10M54.00S,3,1610612747,LAL,1629060,Hachimura,R. Hachimura,-157,185,24,Missed,1,,,0,h,MISS Hachimura 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,240
+240,0022400849,353,PT10M52.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,241
+241,0022400849,354,PT10M37.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-137,241,28,Missed,1,,,0,v,MISS A. Edwards 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,242
+242,0022400849,355,PT10M33.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,243
+243,0022400849,356,PT10M33.00S,3,1610612747,LAL,1629060,Hachimura,R. Hachimura,9,25,3,Made,1,62,47,109,h,Hachimura 3' Running Dunk (5 PTS) (Reaves 3 AST),Made Shot,Running Dunk Shot,1,2,244
+244,0022400849,358,PT10M32.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,245
+245,0022400849,359,PT10M32.00S,3,1610612747,LAL,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,SUB: Finney-Smith FOR Hachimura,Substitution,,0,0,246
+246,0022400849,360,PT10M32.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Clark FOR Reid,Substitution,,0,0,247
+247,0022400849,363,PT10M12.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,-238,65,25,Missed,1,,,0,v,MISS McDaniels 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,248
+248,0022400849,364,PT10M09.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,249
+249,0022400849,365,PT10M04.00S,3,1610612747,LAL,2544,James,L. James,7,8,1,Made,1,64,47,111,h,James 1' Running Layup (21 PTS),Made Shot,Running Layup Shot,1,2,250
+250,0022400849,367,PT09M49.00S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P1.T1) (B.Adair),Foul,Shooting,1,0,251
+251,0022400849,369,PT09M49.00S,3,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,64,48,112,v,Alexander-Walker Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,252
+252,0022400849,370,PT09M49.00S,3,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,64,49,113,v,Alexander-Walker Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,253
+253,0022400849,371,PT09M36.00S,3,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,-230,56,24,Made,1,67,49,116,h,Finney-Smith 24' 3PT Jump Shot (3 PTS) (Reaves 4 AST),Made Shot,Jump Shot,1,3,254
+254,0022400849,373,PT09M10.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,2,41,4,Missed,1,,,0,v,MISS McDaniels 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,255
+255,0022400849,374,PT09M10.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,256
+256,0022400849,375,PT09M08.00S,3,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,Clark S.FOUL (P4.T1) (B.Adair),Foul,Shooting,1,0,257
+257,0022400849,377,PT09M08.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,68,49,117,h,James Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,258
+258,0022400849,378,PT09M08.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,MISS James Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,259
+259,0022400849,379,PT09M06.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,260
+260,0022400849,380,PT08M44.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,26,9,3,Missed,1,,,0,v,MISS A. Edwards 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,261
+261,0022400849,381,PT08M42.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,262
+262,0022400849,382,PT08M36.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,263
+263,0022400849,382,PT08M36.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (2 STL),,,1,0,264
+264,0022400849,384,PT08M28.00S,3,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,164,183,25,Made,1,68,52,120,v,Alexander-Walker 25' 3PT Running Jump Shot (10 PTS) (A. Edwards 4 AST),Made Shot,Running Jump Shot,1,3,265
+265,0022400849,387,PT08M08.00S,3,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,SUB: Reid FOR Clark,Substitution,,0,0,266
+266,0022400849,389,PT08M03.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,170,247,30,Missed,1,,,0,h,MISS Reaves 30' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,267
+267,0022400849,390,PT08M01.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,268
+268,0022400849,391,PT07M56.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-39,22,4,Made,1,68,54,122,v,A. Edwards 4' Driving Floating Jump Shot (15 PTS),Made Shot,Driving Floating Jump Shot,1,2,269
+269,0022400849,392,PT07M56.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves S.FOUL (P2.T2) (B.Adair),Foul,Shooting,1,0,270
+270,0022400849,394,PT07M56.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,68,55,123,v,A. Edwards Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,271
+271,0022400849,395,PT07M41.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,-150,206,25,Made,1,71,55,126,h,Reaves 25' 3PT Jump Shot (14 PTS) (James 4 AST),Made Shot,Jump Shot,1,3,272
+272,0022400849,397,PT07M28.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,123,238,27,Missed,1,,,0,v,MISS A. Edwards 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,273
+273,0022400849,398,PT07M27.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,1,0,274
+274,0022400849,399,PT07M27.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels L.B.FOUL (P2.T2) (J.Williams),Foul,Loose Ball,1,0,275
+275,0022400849,401,PT07M27.00S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Vincent FOR Hayes,Substitution,,0,0,276
+276,0022400849,403,PT07M15.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić Bad Pass Turnover (P3.T9),Turnover,Bad Pass,1,0,277
+277,0022400849,403,PT07M15.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards STEAL (1 STL),,,1,0,278
+278,0022400849,405,PT07M13.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-13,16,2,Made,1,71,57,128,v,A. Edwards 2' Running Dunk (18 PTS),Made Shot,Running Dunk Shot,1,2,279
+279,0022400849,406,PT06M57.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,76,95,12,Missed,1,,,0,h,MISS Reaves 12' Driving Layup,Missed Shot,Driving Layup Shot,1,2,280
+280,0022400849,406,PT06M57.00S,3,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley BLOCK (1 BLK),,,1,2,281
+281,0022400849,408,PT06M57.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,282
+282,0022400849,409,PT06M55.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards P.FOUL (P1.T3) (B.Barnaky),Foul,Personal,1,0,283
+283,0022400849,411,PT06M46.00S,3,1610612747,LAL,2544,James,L. James,34,269,27,Missed,1,,,0,h,MISS James 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,284
+284,0022400849,412,PT06M44.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,285
+285,0022400849,413,PT06M27.00S,3,1610612750,MIN,201144,Conley,M. Conley,-11,67,7,Made,1,71,59,130,v,Conley 7' Driving Floating Jump Shot (8 PTS) (A. Edwards 5 AST),Made Shot,Driving Floating Jump Shot,1,2,286
+286,0022400849,416,PT06M10.00S,3,1610612747,LAL,1629216,Vincent,G. Vincent,174,199,26,Missed,1,,,0,h,MISS Vincent 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,287
+287,0022400849,417,PT06M05.00S,3,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,288
+288,0022400849,418,PT05M52.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,-4,41,4,Missed,1,,,0,v,MISS McDaniels 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,289
+289,0022400849,419,PT05M50.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,290
+290,0022400849,420,PT05M32.00S,3,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley S.FOUL (P1.T4) (B.Barnaky),Foul,Shooting,1,0,291
+291,0022400849,422,PT05M32.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,72,59,131,h,Reaves Free Throw 1 of 3 (15 PTS),Free Throw,Free Throw 1 of 3,1,0,292
+292,0022400849,423,PT05M32.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,73,59,132,h,Reaves Free Throw 2 of 3 (16 PTS),Free Throw,Free Throw 2 of 3,1,0,293
+293,0022400849,424,PT05M32.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,SUB: Vanderbilt FOR James,Substitution,,0,0,294
+294,0022400849,425,PT05M32.00S,3,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: DiVincenzo FOR Conley,Substitution,,0,0,295
+295,0022400849,428,PT05M32.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,74,59,133,h,Reaves Free Throw 3 of 3 (17 PTS),Free Throw,Free Throw 3 of 3,1,0,296
+296,0022400849,429,PT05M21.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards T.FOUL (P1.T4) (B.Barnaky),Foul,Technical,1,0,297
+297,0022400849,431,PT05M21.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,MISS Reaves Free Throw Technical,Free Throw,Free Throw Technical,1,0,298
+298,0022400849,432,PT05M21.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,1,0,299
+299,0022400849,433,PT05M21.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,A. Edwards Ejection:Other,Ejection,Other,1,0,300
+300,0022400849,434,PT05M21.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,SUB: Shannon Jr. FOR A. Edwards,Substitution,,0,0,301
+301,0022400849,436,PT05M21.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Violation: Delay of game Violation,Violation,Delay Of Game,0,0,302
+302,0022400849,437,PT05M12.00S,3,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,223,81,24,Missed,1,,,0,v,MISS Shannon Jr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,303
+303,0022400849,438,PT05M12.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,304
+304,0022400849,439,PT05M12.00S,3,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,Finney-Smith L.B.FOUL (P2.T3) (B.Adair),Foul,Loose Ball,1,0,305
+305,0022400849,441,PT05M01.00S,3,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,44,257,26,Missed,1,,,0,v,MISS DiVincenzo 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,306
+306,0022400849,442,PT05M01.00S,3,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,307
+307,0022400849,443,PT04M56.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,-43,115,12,Made,1,74,61,135,v,McDaniels 12' Driving Floating Jump Shot (7 PTS) (Shannon Jr. 2 AST),Made Shot,Driving Floating Jump Shot,1,2,308
+308,0022400849,445,PT04M39.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,159,199,25,Missed,1,,,0,h,MISS Dončić 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,309
+309,0022400849,446,PT04M35.00S,3,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,310
+310,0022400849,447,PT04M24.00S,3,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,-22,42,5,Made,1,74,63,137,v,Shannon Jr. 5' Driving Reverse Layup (11 PTS) (DiVincenzo 2 AST),Made Shot,Driving Reverse Layup Shot,1,2,311
+311,0022400849,450,PT04M04.00S,3,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,SUB: Hayes FOR Vanderbilt,Substitution,,0,0,312
+312,0022400849,451,PT04M04.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,SUB: Goodwin FOR Reaves,Substitution,,0,0,313
+313,0022400849,454,PT03M58.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,159,215,27,Missed,1,,,0,h,MISS Dončić 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,314
+314,0022400849,455,PT03M56.00S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,315
+315,0022400849,456,PT03M56.00S,3,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo S.FOUL (P2.PN) (B.Barnaky),Foul,Shooting,1,0,316
+316,0022400849,458,PT03M56.00S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,75,63,138,h,Hayes Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,317
+317,0022400849,459,PT03M56.00S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,76,63,139,h,Hayes Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,318
+318,0022400849,460,PT03M43.00S,3,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,-207,175,27,Made,1,76,66,142,v,Alexander-Walker 27' 3PT Jump Shot (13 PTS) (DiVincenzo 3 AST),Made Shot,Jump Shot,1,3,319
+319,0022400849,462,PT03M32.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-91,135,16,Missed,1,,,0,h,MISS Dončić 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,320
+320,0022400849,463,PT03M30.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,321
+321,0022400849,464,PT03M25.00S,3,1610612747,LAL,1630692,Goodwin,J. Goodwin,103,148,18,Made,1,78,66,144,h,Goodwin 18' Step Back Jump Shot (7 PTS) (Dončić 5 AST),Made Shot,Step Back Jump shot,1,2,322
+322,0022400849,466,PT03M04.00S,3,1610612747,LAL,1630692,Goodwin,J. Goodwin,0,0,0,,0,,,0,h,Goodwin P.FOUL (P1.T4) (J.Williams),Foul,Personal,1,0,323
+323,0022400849,468,PT03M04.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,SUB: James FOR Dončić,Substitution,,0,0,324
+324,0022400849,470,PT02M56.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid Lost Ball Turnover (P3.T8),Turnover,Lost Ball,1,0,325
+325,0022400849,470,PT02M56.00S,3,1610612747,LAL,1630692,Goodwin,J. Goodwin,0,0,0,,0,,,0,h,Goodwin STEAL (2 STL),,,1,0,326
+326,0022400849,472,PT02M43.00S,3,1610612747,LAL,2544,James,L. James,15,37,4,Missed,1,,,0,h,MISS James 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,327
+327,0022400849,473,PT02M41.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,328
+328,0022400849,474,PT02M41.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,Made,1,80,66,146,h,James Tip Layup Shot (24 PTS),Made Shot,Tip Layup Shot,1,2,329
+329,0022400849,475,PT02M31.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,-17,52,5,Missed,1,,,0,v,MISS McDaniels 5' Hook Bank Shot,Missed Shot,Hook Bank Shot,1,2,330
+330,0022400849,476,PT02M28.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,331
+331,0022400849,477,PT02M21.00S,3,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,239,78,25,Missed,1,,,0,h,MISS Finney-Smith 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,332
+332,0022400849,478,PT02M17.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,333
+333,0022400849,479,PT02M08.00S,3,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,-234,99,25,Made,1,80,69,149,v,DiVincenzo 25' 3PT Jump Shot (6 PTS) (Alexander-Walker 1 AST),Made Shot,Jump Shot,1,3,334
+334,0022400849,481,PT02M00.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,335
+335,0022400849,482,PT02M00.00S,3,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,SUB: Knecht FOR Finney-Smith,Substitution,,0,0,336
+336,0022400849,483,PT02M00.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Dillingham FOR McDaniels,Substitution,,0,0,337
+337,0022400849,486,PT01M44.00S,3,1610612747,LAL,2544,James,L. James,7,4,1,Made,1,82,69,151,h,James 1' Driving Layup (26 PTS),Made Shot,Driving Layup Shot,1,2,338
+338,0022400849,487,PT01M34.00S,3,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,21,21,3,Missed,1,,,0,v,MISS Shannon Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,339
+339,0022400849,487,PT01M34.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James BLOCK (1 BLK),,,1,2,340
+340,0022400849,489,PT01M31.00S,3,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,Dillingham REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,341
+341,0022400849,490,PT01M24.00S,3,1610612750,MIN,1629675,Reid,N. Reid,-4,125,13,Missed,1,,,0,v,MISS Reid 13' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,342
+342,0022400849,491,PT01M21.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,343
+343,0022400849,492,PT01M11.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,344
+344,0022400849,492,PT01M11.00S,3,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker STEAL (1 STL),,,1,0,345
+345,0022400849,494,PT01M06.00S,3,1610612750,MIN,1642265,Dillingham,R. Dillingham,240,33,24,Missed,1,,,0,v,MISS Dillingham 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,346
+346,0022400849,495,PT01M05.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,347
+347,0022400849,496,PT01M04.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,Made,1,82,71,153,v,Reid Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,348
+348,0022400849,497,PT00M47.00S,3,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo S.FOUL (P3.PN) (J.Williams),Foul,Shooting,1,0,349
+349,0022400849,499,PT00M47.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,MISS James Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,350
+350,0022400849,501,PT00M47.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,1,0,351
+351,0022400849,502,PT00M47.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,83,71,154,h,James Free Throw 2 of 2 (27 PTS),Free Throw,Free Throw 2 of 2,1,0,352
+352,0022400849,503,PT00M37.20S,3,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,Dillingham Lost Ball Turnover (P2.T9),Turnover,Lost Ball,1,0,353
+353,0022400849,503,PT00M37.20S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes STEAL (1 STL),,,1,0,354
+354,0022400849,505,PT00M37.20S,3,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,Dillingham P.FOUL (P1.PN) (J.Williams),Foul,Personal,1,0,355
+355,0022400849,507,PT00M37.20S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,MISS Hayes Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,356
+356,0022400849,508,PT00M37.20S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,357
+357,0022400849,509,PT00M37.20S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,84,71,155,h,Hayes Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,358
+358,0022400849,510,PT00M25.50S,3,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,-88,123,15,Missed,1,,,0,v,MISS Shannon Jr. 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,359
+359,0022400849,511,PT00M22.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,360
+360,0022400849,512,PT00M21.70S,3,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P2.PN) (J.Williams),Foul,Shooting,1,0,361
+361,0022400849,514,PT00M21.70S,3,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,84,72,156,v,Shannon Jr. Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,362
+362,0022400849,515,PT00M21.70S,3,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,SUB: McDaniels FOR Dillingham,Substitution,,0,0,363
+363,0022400849,517,PT00M21.70S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Clark FOR Reid,Substitution,,0,0,364
+364,0022400849,519,PT00M21.70S,3,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,84,73,157,v,Shannon Jr. Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,365
+365,0022400849,520,PT00M01.00S,3,1610612747,LAL,1629216,Vincent,G. Vincent,180,192,26,Missed,1,,,0,h,MISS Vincent 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,366
+366,0022400849,521,PT00M01.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,1,0,367
+367,0022400849,522,PT00M00.00S,3,0,,0,,,0,0,0,,0,84,73,157,,End of 3rd Period (12:26 AM EST),period,end,1,0,368
+368,0022400849,529,PT12M00.00S,4,0,,0,,,0,0,0,,0,84,73,157,,Start of 4th Period (12:29 AM EST),period,start,0,0,369
+369,0022400849,530,PT11M43.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,12,8,1,Made,1,86,73,159,h,Hayes 1' Alley Oop Dunk (7 PTS) (James 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,370
+370,0022400849,532,PT11M28.00S,4,1610612750,MIN,1642265,Dillingham,R. Dillingham,-141,172,22,Made,1,86,75,161,v,Dillingham 22' Pullup Jump Shot (4 PTS) (Garza 1 AST),Made Shot,Pullup Jump shot,1,2,371
+371,0022400849,534,PT11M07.00S,4,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,Clark S.FOUL (P5.T1) (J.Williams),Foul,Shooting,1,0,372
+372,0022400849,536,PT11M07.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,373
+373,0022400849,537,PT11M07.00S,4,0,,534,,,0,0,0,,0,86,75,161,,Instant Replay4th Period (12:30 AM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,374
+374,0022400849,538,PT11M07.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,87,75,162,h,Reaves Free Throw 1 of 3 (18 PTS),Free Throw,Free Throw 1 of 3,1,0,375
+375,0022400849,539,PT11M07.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,88,75,163,h,Reaves Free Throw 2 of 3 (19 PTS),Free Throw,Free Throw 2 of 3,1,0,376
+376,0022400849,540,PT11M07.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,89,75,164,h,Reaves Free Throw 3 of 3 (20 PTS),Free Throw,Free Throw 3 of 3,1,0,377
+377,0022400849,541,PT10M56.00S,4,1610612750,MIN,1642265,Dillingham,R. Dillingham,-54,50,7,Missed,1,,,0,v,MISS Dillingham 7' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,378
+378,0022400849,542,PT10M54.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,379
+379,0022400849,544,PT10M38.00S,4,1610612747,LAL,2544,James,L. James,-11,55,6,Missed,1,,,0,h,MISS James 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,380
+380,0022400849,545,PT10M37.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,381
+381,0022400849,546,PT10M37.00S,4,1610612750,MIN,1630568,Garza,L. Garza,0,0,0,,0,,,0,v,Garza P.FOUL (P1.T2) (B.Adair),Foul,Personal,1,0,382
+382,0022400849,548,PT10M24.00S,4,1610612747,LAL,1630692,Goodwin,J. Goodwin,225,127,26,Missed,1,,,0,h,MISS Goodwin 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,383
+383,0022400849,549,PT10M23.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:4 Def:10),Rebound,Unknown,1,0,384
+384,0022400849,550,PT10M22.00S,4,1610612747,LAL,2544,James,L. James,-5,32,3,Missed,1,,,0,h,MISS James 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,385
+385,0022400849,551,PT10M20.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:5 Def:10),Rebound,Unknown,1,0,386
+386,0022400849,552,PT10M18.00S,4,1610612747,LAL,2544,James,L. James,-6,24,2,Missed,1,,,0,h,MISS James 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,387
+387,0022400849,552,PT10M18.00S,4,1610612750,MIN,1630568,Garza,L. Garza,0,0,0,,0,,,0,v,Garza BLOCK (1 BLK),,,1,2,388
+388,0022400849,554,PT10M18.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,1,0,389
+389,0022400849,555,PT10M08.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James Lost Ball Turnover (P4.T11),Turnover,Lost Ball,1,0,390
+390,0022400849,555,PT10M08.00S,4,1610612750,MIN,1630568,Garza,L. Garza,0,0,0,,0,,,0,v,Garza STEAL (1 STL),,,1,0,391
+391,0022400849,557,PT10M08.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. Out of Bounds Lost Ball Turnover (P1.T10),Turnover,Out of Bounds Lost Ball Turnover,1,0,392
+392,0022400849,558,PT10M04.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves Bad Pass Turnover (P4.T12),Turnover,Bad Pass,1,0,393
+393,0022400849,558,PT10M04.00S,4,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo STEAL (1 STL),,,1,0,394
+394,0022400849,562,PT10M02.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,15,27,3,Made,1,89,77,166,v,Shannon Jr. 3' Running Dunk (15 PTS) (Dillingham 2 AST),Made Shot,Running Dunk Shot,1,2,395
+395,0022400849,565,PT09M38.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,-2,15,2,Made,1,91,77,168,h,Hayes 2' Alley Oop Dunk (9 PTS) (Reaves 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,396
+396,0022400849,567,PT09M23.00S,4,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,141,227,27,Missed,1,,,0,v,MISS DiVincenzo 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,397
+397,0022400849,568,PT09M19.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:5 Def:11),Rebound,Unknown,1,0,398
+398,0022400849,569,PT09M16.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. S.FOUL (P2.T3) (J.Williams),Foul,Shooting,1,0,399
+399,0022400849,571,PT09M16.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,MISS Hayes Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,400
+400,0022400849,572,PT09M16.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,401
+401,0022400849,573,PT09M16.00S,4,1610612747,LAL,1630692,Goodwin,J. Goodwin,0,0,0,,0,,,0,h,SUB: Dončić FOR Goodwin,Substitution,,0,0,402
+402,0022400849,574,PT09M16.00S,4,1610612750,MIN,1630568,Garza,L. Garza,0,0,0,,0,,,0,v,SUB: Reid FOR Garza,Substitution,,0,0,403
+403,0022400849,577,PT09M16.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,92,77,169,h,Hayes Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,404
+404,0022400849,578,PT09M00.00S,4,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,-178,197,27,Made,1,92,80,172,v,DiVincenzo 27' 3PT Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,3,405
+405,0022400849,579,PT08M43.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,12,22,3,Missed,1,,,0,h,MISS Hayes 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,406
+406,0022400849,580,PT08M41.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,407
+407,0022400849,581,PT08M25.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,17,57,6,Made,1,92,82,174,v,Shannon Jr. 6' Driving Floating Jump Shot (17 PTS) (DiVincenzo 4 AST),Made Shot,Driving Floating Jump Shot,1,2,408
+408,0022400849,583,PT08M05.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,-1,145,15,Missed,1,,,0,h,MISS Dončić 15' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,409
+409,0022400849,584,PT08M03.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,410
+410,0022400849,585,PT07M59.00S,4,1610612750,MIN,1642265,Dillingham,R. Dillingham,140,227,27,Missed,1,,,0,v,MISS Dillingham 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,411
+411,0022400849,586,PT07M55.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,412
+412,0022400849,587,PT07M53.00S,4,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,Dillingham S.FOUL (P2.T4) (B.Adair),Foul,Shooting,1,0,413
+413,0022400849,589,PT07M53.00S,4,1610612747,LAL,1642261,Knecht,D. Knecht,0,0,0,,0,,,0,h,MISS Knecht Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,414
+414,0022400849,590,PT07M53.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,1,0,415
+415,0022400849,591,PT07M53.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Vanderbilt FOR Hayes,Substitution,,0,0,416
+416,0022400849,592,PT07M53.00S,4,1610612750,MIN,1642265,Dillingham,R. Dillingham,0,0,0,,0,,,0,v,SUB: Conley FOR Dillingham,Substitution,,0,0,417
+417,0022400849,595,PT07M53.00S,4,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,SUB: McDaniels FOR Clark,Substitution,,0,0,418
+418,0022400849,597,PT07M53.00S,4,1610612747,LAL,1642261,Knecht,D. Knecht,0,0,0,,0,,,0,h,MISS Knecht Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,419
+419,0022400849,598,PT07M51.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,420
+420,0022400849,599,PT07M46.00S,4,1610612747,LAL,1642261,Knecht,D. Knecht,0,0,0,,0,,,0,h,Knecht S.FOUL (P1.T1) (J.Williams),Foul,Shooting,1,0,421
+421,0022400849,601,PT07M46.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,92,83,175,v,Shannon Jr. Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,422
+422,0022400849,602,PT07M46.00S,4,1610612747,LAL,1642261,Knecht,D. Knecht,0,0,0,,0,,,0,h,SUB: Finney-Smith FOR Knecht,Substitution,,0,0,423
+423,0022400849,604,PT07M46.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,92,84,176,v,Shannon Jr. Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,424
+424,0022400849,605,PT07M32.00S,4,1610612747,LAL,2544,James,L. James,-180,172,25,Missed,1,,,0,h,MISS James 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,425
+425,0022400849,606,PT07M29.00S,4,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,426
+426,0022400849,607,PT07M25.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,-4,33,3,Made,1,92,86,178,v,Shannon Jr. 3' Running Finger Roll Layup (21 PTS) (DiVincenzo 5 AST),Made Shot,Running Finger Roll Layup Shot,1,2,427
+427,0022400849,609,PT07M25.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,428
+428,0022400849,610,PT07M25.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,SUB: Vincent FOR James,Substitution,,0,0,429
+429,0022400849,612,PT07M08.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,-37,16,4,Missed,1,,,0,h,MISS Dončić 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,430
+430,0022400849,613,PT07M04.00S,4,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,431
+431,0022400849,614,PT06M56.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,-5,29,3,Made,1,92,88,180,v,McDaniels 3' Driving Layup (9 PTS) (DiVincenzo 6 AST),Made Shot,Driving Layup Shot,1,2,432
+432,0022400849,616,PT06M37.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,-145,220,26,Missed,1,,,0,h,MISS Reaves 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,433
+433,0022400849,617,PT06M35.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,434
+434,0022400849,618,PT06M32.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,435
+435,0022400849,618,PT06M32.00S,4,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,Finney-Smith STEAL (1 STL),,,1,0,436
+436,0022400849,620,PT06M10.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P4.PN) (B.Barnaky),Foul,Shooting,1,0,437
+437,0022400849,622,PT06M10.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid T.FOUL (P4.PN) (B.Barnaky),Foul,Technical,1,0,438
+438,0022400849,623,PT06M10.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,93,88,181,h,Reaves Free Throw Technical (21 PTS),Free Throw,Free Throw Technical,1,0,439
+439,0022400849,624,PT06M10.00S,4,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,MISS Vanderbilt Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,440
+440,0022400849,625,PT06M10.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,441
+441,0022400849,626,PT06M10.00S,4,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,SUB: Alexander-Walker FOR DiVincenzo,Substitution,,0,0,442
+442,0022400849,628,PT06M10.00S,4,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,MISS Vanderbilt Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,443
+443,0022400849,629,PT06M09.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,444
+444,0022400849,630,PT05M56.00S,4,1610612750,MIN,1629675,Reid,N. Reid,136,238,27,Missed,1,,,0,v,MISS Reid 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,445
+445,0022400849,631,PT05M53.00S,4,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,446
+446,0022400849,632,PT05M43.00S,4,1610612747,LAL,1629216,Vincent,G. Vincent,-222,5,0,Missed,1,,,0,h,MISS Vincent 3PT Jump Shot,Missed Shot,Jump Shot,1,3,447
+447,0022400849,633,PT05M42.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,448
+448,0022400849,634,PT05M36.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. Lost Ball Turnover (P3.T12),Turnover,Lost Ball,1,0,449
+449,0022400849,634,PT05M36.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves STEAL (2 STL),,,1,0,450
+450,0022400849,636,PT05M30.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,-1,6,1,Missed,1,,,0,h,MISS Dončić 1' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,451
+451,0022400849,637,PT05M29.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,452
+452,0022400849,638,PT05M23.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,15,21,3,Made,1,93,90,183,v,McDaniels 3' Running Layup (11 PTS) (Reid 2 AST),Made Shot,Running Layup Shot,1,2,453
+453,0022400849,640,PT05M10.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,454
+454,0022400849,641,PT05M10.00S,4,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,SUB: Hayes FOR Vanderbilt,Substitution,,0,0,455
+455,0022400849,642,PT05M10.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,SUB: James FOR Reaves,Substitution,,0,0,456
+456,0022400849,645,PT05M00.00S,4,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,-67,264,27,Missed,1,,,0,h,MISS Finney-Smith 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,457
+457,0022400849,646,PT04M58.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,458
+458,0022400849,647,PT04M55.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,-1,16,2,Made,1,95,90,185,h,Dončić 2' Driving Floating Bank Jump Shot (15 PTS) (Finney-Smith 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,459
+459,0022400849,649,PT04M55.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels S.FOUL (P3.PN) (B.Adair),Foul,Shooting,1,0,460
+460,0022400849,651,PT04M55.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,MISS Dončić Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,461
+461,0022400849,652,PT04M53.00S,4,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,462
+462,0022400849,653,PT04M34.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,-5,115,12,Missed,1,,,0,v,MISS McDaniels 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,463
+463,0022400849,654,PT04M32.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,464
+464,0022400849,655,PT04M17.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,158,234,28,Missed,1,,,0,h,MISS Dončić 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,465
+465,0022400849,656,PT04M13.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,466
+466,0022400849,657,PT04M10.00S,4,1610612747,LAL,2544,James,L. James,-23,263,26,Missed,1,,,0,h,MISS James 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,467
+467,0022400849,658,PT04M07.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,468
+468,0022400849,659,PT04M04.00S,4,1610612747,LAL,1629216,Vincent,G. Vincent,0,0,0,,0,,,0,h,Vincent S.FOUL (P1.T2) (B.Adair),Foul,Shooting,1,0,469
+469,0022400849,661,PT04M04.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,MISS Reid Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,470
+470,0022400849,662,PT04M04.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,471
+471,0022400849,663,PT04M04.00S,4,1610612747,LAL,1629216,Vincent,G. Vincent,0,0,0,,0,,,0,h,SUB: Reaves FOR Vincent,Substitution,,0,0,472
+472,0022400849,665,PT04M04.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,95,91,186,v,Reid Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,473
+473,0022400849,666,PT03M39.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,-232,170,29,Made,1,98,91,189,h,Dončić 29' 3PT Fadeaway Jumper (18 PTS) (James 6 AST),Made Shot,Fadeaway Jump Shot,1,3,474
+474,0022400849,668,PT03M37.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,475
+475,0022400849,669,PT03M29.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,-7,32,3,Made,1,98,93,191,v,Shannon Jr. 3' Driving Finger Roll Layup (23 PTS) (Conley 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,476
+476,0022400849,671,PT03M17.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels P.FOUL (P4.PN) (J.Williams),Foul,Personal,1,0,477
+477,0022400849,673,PT03M17.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,99,93,192,h,Reaves Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,478
+478,0022400849,674,PT03M17.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,100,93,193,h,Reaves Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,1,0,479
+479,0022400849,675,PT03M10.00S,4,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,Finney-Smith P.FOUL (P3.T3) (J.Williams),Foul,Personal,1,0,480
+480,0022400849,677,PT03M03.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,115,247,27,Made,1,100,96,196,v,McDaniels 27' 3PT Jump Shot (14 PTS) (Alexander-Walker 2 AST),Made Shot,Jump Shot,1,3,481
+481,0022400849,680,PT02M38.00S,4,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker P.FOUL (P2.PN) (J.Williams),Foul,Personal,1,0,482
+482,0022400849,682,PT02M38.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,101,96,197,h,Dončić Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,483
+483,0022400849,683,PT02M38.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,102,96,198,h,Dončić Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,484
+484,0022400849,684,PT02M28.00S,4,1610612750,MIN,201144,Conley,M. Conley,39,269,27,Missed,1,,,0,v,MISS Conley 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,485
+485,0022400849,685,PT02M28.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,1,0,486
+486,0022400849,686,PT02M28.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels L.B.FOUL (P5.PN) (J.Williams),Foul,Loose Ball,1,0,487
+487,0022400849,688,PT02M28.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,103,96,199,h,Dončić Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,488
+488,0022400849,689,PT02M28.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,MISS Dončić Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,489
+489,0022400849,690,PT02M26.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,490
+490,0022400849,691,PT02M12.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P3.T4) (J.Williams),Foul,Shooting,1,0,491
+491,0022400849,693,PT02M12.00S,4,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,MISS Alexander-Walker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,492
+492,0022400849,694,PT02M12.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,493
+493,0022400849,695,PT02M12.00S,4,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,103,97,200,v,Alexander-Walker Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,494
+494,0022400849,697,PT02M00.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,0,0,0,,0,,,0,v,Shannon Jr. S.FOUL (P3.PN) (J.Williams),Foul,Shooting,1,0,495
+495,0022400849,699,PT02M00.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,104,97,201,h,James Free Throw 1 of 2 (28 PTS),Free Throw,Free Throw 1 of 2,1,0,496
+496,0022400849,718,PT02M00.00S,4,1610612747,LAL,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Vincent FOR Hayes,Substitution,,0,0,497
+497,0022400849,702,PT02M00.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,105,97,202,h,James Free Throw 2 of 2 (29 PTS),Free Throw,Free Throw 2 of 2,1,0,498
+498,0022400849,703,PT01M46.00S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,-16,57,6,Missed,1,,,0,v,MISS Shannon Jr. 6' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,499
+499,0022400849,704,PT01M45.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,500
+500,0022400849,705,PT01M44.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,Missed,1,,,0,v,MISS McDaniels Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,501
+501,0022400849,706,PT01M44.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,502
+502,0022400849,707,PT01M44.00S,4,1610612747,LAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,Finney-Smith S.FOUL (P4.PN) (J.Williams),Foul,Shooting,1,0,503
+503,0022400849,709,PT01M44.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,105,98,203,v,McDaniels Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,504
+504,0022400849,710,PT01M44.00S,4,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: Clark FOR Conley,Substitution,,0,0,505
+505,0022400849,712,PT01M44.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,MISS McDaniels Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,506
+506,0022400849,713,PT01M42.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,507
+507,0022400849,714,PT01M22.00S,4,1610612747,LAL,2544,James,L. James,38,111,12,Made,1,107,98,205,h,James 12' Turnaround Fadeaway (31 PTS),Made Shot,Turnaround Fadeaway shot,1,2,508
+508,0022400849,715,PT01M12.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,-49,105,12,Missed,1,,,0,v,MISS McDaniels 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,509
+509,0022400849,716,PT01M10.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Dončić REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,510
+510,0022400849,717,PT01M03.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,511
+511,0022400849,720,PT00M49.50S,4,1610612747,LAL,2544,James,L. James,-27,-4,3,Missed,1,,,0,h,MISS James 3' Layup,Missed Shot,Layup Shot,1,2,512
+512,0022400849,721,PT00M48.50S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,1,0,513
+513,0022400849,722,PT00M48.50S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Turnover: Shot Clock (T#13),Turnover,Shot Clock Turnover,1,0,514
+514,0022400849,723,PT00M48.50S,4,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,SUB: Conley FOR Clark,Substitution,,0,0,515
+515,0022400849,725,PT00M44.60S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves S.FOUL (P3.PN) (J.Williams),Foul,Shooting,1,0,516
+516,0022400849,727,PT00M44.60S,4,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,107,99,206,v,Conley Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,517
+517,0022400849,728,PT00M44.60S,4,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,107,100,207,v,Conley Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,518
+518,0022400849,729,PT00M37.50S,4,1610612750,MIN,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker P.FOUL (P3.PN) (B.Barnaky),Foul,Personal,1,0,519
+519,0022400849,731,PT00M37.50S,4,1610612747,LAL,1629216,Vincent,G. Vincent,0,0,0,,0,108,100,208,h,Vincent Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,520
+520,0022400849,732,PT00M37.50S,4,1610612747,LAL,1629216,Vincent,G. Vincent,0,0,0,,0,109,100,209,h,Vincent Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,521
+521,0022400849,733,PT00M30.80S,4,1610612750,MIN,1630545,Shannon Jr.,T. Shannon Jr.,6,13,1,Made,1,109,102,211,v,Shannon Jr. 1' Driving Finger Roll Layup (25 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,522
+522,0022400849,734,PT00M28.10S,4,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley Personal Take Foul (P2.PN) (B.Barnaky),Foul,Personal Take,1,0,523
+523,0022400849,736,PT00M28.10S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,110,102,212,h,James Free Throw 1 of 2 (32 PTS),Free Throw,Free Throw 1 of 2,1,0,524
+524,0022400849,737,PT00M28.10S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,111,102,213,h,James Free Throw 2 of 2 (33 PTS),Free Throw,Free Throw 2 of 2,1,0,525
+525,0022400849,738,PT00M22.80S,4,1610612750,MIN,1629675,Reid,N. Reid,-138,71,16,Missed,1,,,0,v,MISS Reid 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,526
+526,0022400849,739,PT00M20.40S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:5 Def:12),Rebound,Unknown,1,0,527
+527,0022400849,740,PT00M00.00S,4,0,,0,,,0,0,0,,0,111,102,213,,End of 4th Period (1:10 AM EST),period,end,1,0,528
