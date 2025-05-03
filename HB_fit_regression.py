@@ -171,8 +171,8 @@ def main():
     # feature names: roster, stats, then team stats
     feature_names = [f"player_{p}" for p in players_list] + [f"stat_{s}" for s in existing_stats] + [f"team_{t}" for t in team_stats_cols]
     importances = sorted(zip(feature_names, np.abs(coefs)), key=lambda x: x[1], reverse=True)
-    print("Top 10 features by importance:")
-    for fname, imp in importances[:10]:
+    print("Features ranking by importance:")
+    for fname, imp in importances:
         print(f"{fname}: {imp:.4f}")
 
     # Persist the best model

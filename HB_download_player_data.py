@@ -17,7 +17,8 @@ def main():
     seasons = ['2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
     logs = []
     # Optionally skip team logs download (e.g., for testing)
-    if int(os.environ.get('SKIP_PLAYER_LOG_DOWNLOAD')) == 1:
+    # Optionally skip player logs download (e.g., for testing)
+    if os.environ.get('SKIP_PLAYER_LOG_DOWNLOAD', '0') == '1':
         print("Skipping player game logs download (SKIP_PLAYER_LOG_DOWNLOAD set).")
     else:
         for p in selected_players:
@@ -46,7 +47,8 @@ def main():
         print(f"Saved player game logs to {pgl_path}")
 
     # Optionally skip team logs download (e.g., for testing)
-    if int(os.environ.get('SKIP_TEAM_LOG_DOWNLOAD')) == 1:
+    # Optionally skip team logs download (e.g., for testing)
+    if os.environ.get('SKIP_TEAM_LOG_DOWNLOAD', '0') == '1':
         print("Skipping team game logs download (SKIP_TEAM_LOG_DOWNLOAD set).")
     else:
         print("Downloading team game logs...")
