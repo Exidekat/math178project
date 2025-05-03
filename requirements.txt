@@ -1,1 +1,6 @@
+nba_api
 nbstripout
+pandas
+numpy
+scikit-learn
+joblib
