@@ -30,9 +30,28 @@ def main():
     game_ids     = df['Game_ID'].unique()
     n_players    = len(players_list)
 
-    # we'll collect rows for roster features, aggregated stat features, and labels
+    # Load team-level game logs for additional features
+    team_path = os.path.join('data', 'team_game_logs.csv')
+    if os.path.exists(team_path):
+        team_df = pd.read_csv(team_path)
+        print(f"Team game logs shape: {team_df.shape}")
+        possible_team_stats = [
+            'W', 'L', 'W_PCT', 'MIN', 'FGM', 'FGA', 'FG_PCT',
+            'FG3M', 'FG3A', 'FG3_PCT', 'FTM', 'FTA', 'FT_PCT',
+            'OREB', 'DREB', 'REB', 'AST', 'STL', 'BLK', 'TOV',
+            'PF', 'PTS'
+        ]
+        team_stats_cols = [c for c in possible_team_stats if c in team_df.columns]
+        print("Team numeric stats columns:", team_stats_cols)
+    else:
+        print("WARNING: team_game_logs.csv not found; skipping team-level features.")
+        team_df = None
+        team_stats_cols = []
+
+    # we'll collect rows for roster features, aggregated stat features, team features, and labels
     X_rows = []
     X_stat_rows = []
+    X_team_rows = []
     y_rows = []
 
     for gid in game_ids:
@@ -64,7 +83,7 @@ def main():
             win_team = away_team if wl == 'W' else home_team
         else:
             # weird case: we have rows but TEAM_ABBR parsing failed
-            print(f"⚠️  Couldn’t parse teams for game {gid}: {df_game['MATCHUP'].unique()}")
+            print(f"️Couldn’t parse teams for game {gid}: {df_game['MATCHUP'].unique()}")
             continue
 
         # record the label: 1 if home squad won, else 0
@@ -85,18 +104,39 @@ def main():
         away_stats = df_game.loc[away_mask, existing_stats].sum()
         stat_row = (home_stats - away_stats).values
         X_stat_rows.append(stat_row)
+        # aggregate team-level features: difference of team stats
+        if team_df is not None:
+            df_t = team_df[team_df['Game_ID'] == gid]
+            df_th = df_t[df_t['TEAM_ABBREVIATION'] == home_team]
+            df_ta = df_t[df_t['TEAM_ABBREVIATION'] == away_team]
+            if not df_th.empty and not df_ta.empty:
+                home_t_stats = df_th[team_stats_cols].iloc[0]
+                away_t_stats = df_ta[team_stats_cols].iloc[0]
+                team_row = (home_t_stats - away_t_stats).values
+            else:
+                team_row = np.zeros(len(team_stats_cols), dtype=float)
+        else:
+            team_row = np.zeros(len(team_stats_cols), dtype=float)
+        X_team_rows.append(team_row)
 
-    # stack into arrays for roster and stat features
+    # stack into arrays for roster, stat, and team features
     X_roster = np.vstack(X_rows)
     X_stats = np.vstack(X_stat_rows)
     y = np.array(y_rows)
     print(f"Roster feature matrix shape: {X_roster.shape}")
     print(f"Stat feature matrix shape:   {X_stats.shape}")
+    if team_stats_cols:
+        X_team = np.vstack(X_team_rows)
+        print(f"Team feature matrix shape:   {X_team.shape}")
+    else:
+        X_team = np.zeros((X_roster.shape[0], 0))
+        print("No team features used; skipping team feature matrix.")
 
     # Split data for different feature sets
     Xr_train, Xr_test, yr_train, yr_test = train_test_split(X_roster, y, test_size=0.2, random_state=42)
     Xs_train, Xs_test, ys_train, ys_test = train_test_split(X_stats, y, test_size=0.2, random_state=42)
-    Xc = np.hstack([X_roster, X_stats])
+    # combine all features
+    Xc = np.hstack([X_roster, X_stats, X_team])
     Xc_train, Xc_test, yc_train, yc_test = train_test_split(Xc, y, test_size=0.2, random_state=42)
 
     # 1) Baseline: Linear Regression on roster features
@@ -123,6 +163,17 @@ def main():
     best_key = max(acc_dict, key=acc_dict.get)
     best_model = {'linreg_roster': linreg, 'logreg_stats': logreg, 'logreg_combined': logreg_c}[best_key]
     print(f"Best model: {best_key} with accuracy {acc_dict[best_key]:.3f}")
+    # Feature importance ranking
+    if hasattr(best_model, 'coef_'):
+        coefs = best_model.coef_[0]
+    else:
+        coefs = best_model.feature_importances_
+    # feature names: roster, stats, then team stats
+    feature_names = [f"player_{p}" for p in players_list] + [f"stat_{s}" for s in existing_stats] + [f"team_{t}" for t in team_stats_cols]
+    importances = sorted(zip(feature_names, np.abs(coefs)), key=lambda x: x[1], reverse=True)
+    print("Top 10 features by importance:")
+    for fname, imp in importances[:10]:
+        print(f"{fname}: {imp:.4f}")
 
     # Persist the best model
     os.makedirs('models', exist_ok=True)
