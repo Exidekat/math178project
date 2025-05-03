@@ -3,3 +3,9 @@
 
 # dont save model params
 models/
+
+# env vars
+.env
+
+# Dont persist data in the wrong directories
+odds_regression/data/
