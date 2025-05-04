@@ -10,13 +10,18 @@
 **Sections**
 1. **NBA Play-By-Play Predictions** via Hidden Markov Models
 2. **NBA Game Predictions** via Regression
-3. **NBA Gambling Bot** via Polymarket
+3. **NBA Gambling Bot** via Betfair
 
 # 1. NBA Play-By-Play Predictions
 
 - Authored by Arjun Bemarker, Neal Chandra, Brian Chiang, Karthik Renuprasad
 
-WORK IN PROGRESS
+# NBA Play-By-Play Predictions via Hidden Markov Models
+- Data Acquisition: We use the `nba_api` PlayByPlayV3 endpoint to fetch detailed event logs for NBA games.
+- State Definition: Each play (e.g., shot attempt, rebound, foul) is encoded as a hidden state based on the `actionType` column.
+- Transition Matrix: We construct a Markov transition matrix by counting consecutive state occurrences and normalizing to probabilities.
+- Evaluation: Transition probabilities are stored in `playbyplay_markov/transition_matrix.csv`, and notebooks explore sequence likelihoods, Pearson correlations between predicted vs. observed transitions, and visualizations of state flows.
+- Use Cases: The HMM framework enables us to predict next-play events, simulate possession sequences, and inform in-play strategy.
 
 # 2. NBA Game Predictions
 
@@ -81,4 +86,43 @@ The final model and metadata are saved as `models/best_player_model.pkl`, contai
 
 # 3. NBA Gambling Bot
 
-GAMBLING IN PROGRESS
+- Authored by Haydon Behl
+
+# NBA Gambling Bot via Odds and Exchange APIs
+- Odds Acquisition: We fetch upcoming NBA game listings and existing market odds using The Odds API in `odds_regression/HB_gamble_odds.py`, writing predictions to `data/game_odds.csv`.
+- Market Mapping: Betfair market and runner IDs are dynamically discovered and persisted in `data/market_maps.csv`, enabling cross-referencing between our event IDs and exchange markets.
+- Bet Placement (Betfair):
+  - `odds_gambling/HB_betfair_gamble.py` logs into Betfair via `betfairlightweight`, computes Kelly criterion stakes based on our model probabilities, and places LIMIT BACK orders on MATCH_ODDS markets.
+  - Bet results and responses are saved to `data/betfair_bets.csv` for audit and tracking.
+- Bet Placement (Pinnacle) [Upcoming]:
+  - We will mirror the Betfair integration for Pinnacle Sports using their REST API, with credentials in `PINA_USERNAME` and `PINA_PASSWORD`, and similar stake-sizing logic.
+- Kelly Staking Calculator:
+  - `odds_gambling/HB_kelly_staking.py` computes recommended stakes per upcoming game based on the Kelly criterion, using model probabilities from `data/game_odds.csv` and market odds from The Odds API.
+- Configuration:
+  - Environment variables (in `.env`) for API credentials and `TOTAL_FUNDS` are required:
+    ```bash
+    BETFAIR_USERNAME=...
+    BETFAIR_PASSWORD=...
+    BETFAIR_APP_KEY=...
+    PINA_USERNAME=...
+    PINA_PASSWORD=...
+    ODDS_API_KEY=...
+    TOTAL_FUNDS=1000.00
+    ```
+- Scripts & Usage:
+  1. Generate game odds:
+     ```bash
+     python odds_regression/HB_gamble_odds.py
+     ```
+  2. Place automated bets on Betfair:
+     ```bash
+     python odds_gambling/HB_betfair_gamble.py
+     ```
+  3. Calculate recommended Kelly stakes:
+     ```bash
+     python odds_gambling/HB_kelly_staking.py
+     ```
+  4. (Future) Place bets on Pinnacle:
+     ```bash
+     python odds_gambling/HB_pinnacle_gamble.py
+     ```

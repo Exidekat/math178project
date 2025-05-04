@@ -176,14 +176,15 @@ def main():
         print(f"{fname}: {imp:.4f}")
 
     # Persist the best model
-    os.makedirs('models', exist_ok=True)
+    os.makedirs('../models', exist_ok=True)
     model_dict = {
         'model': best_model,
         'players': players_list,
         'stats_cols': existing_stats,
+        'team_stats_cols': team_stats_cols,
         'feature_set': best_key
     }
-    joblib.dump(model_dict, 'models/best_player_model.pkl')
+    joblib.dump(model_dict, '../models/best_player_model.pkl')
     print("Best model saved to models/best_player_model.pkl")
 
 
