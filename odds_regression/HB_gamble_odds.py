@@ -56,7 +56,7 @@ def main():
         sys.exit(1)
 
     # Filter for games in next 7 days
-    now = datetime.now(timezone.utc)
+    now = datetime.now(timezone.utc) - timedelta(days=1)
     week_later = now + timedelta(days=7)
     upcoming = []
     for ev in events:
@@ -135,6 +135,10 @@ def main():
 
     def team_feature_diff(home_abbr, away_abbr, ctime):
         # average team stats up to game time
+        # Ensure comparison between naive datetimes: drop tzinfo
+        if hasattr(ctime, 'tzinfo') and ctime.tzinfo is not None:
+            # convert to UTC naive
+            ctime = ctime.astimezone(timezone.utc).replace(tzinfo=None)
         past = tdf[tdf['GAME_DATE_DT'] < ctime]
         hdf = past[past['TEAM_ABBREVIATION'] == home_abbr]
         adf = past[past['TEAM_ABBREVIATION'] == away_abbr]
