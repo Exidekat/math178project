@@ -11,7 +11,13 @@ from datetime import datetime, timedelta, timezone
 import pandas as pd
 import numpy as np
 import joblib
-from nba_api.stats.static import teams as nba_teams
+
+try:
+    from nba_api.stats.static import teams as nba_teams
+except ImportError:
+    print("DEBUG: nba_api.stats.static import failed, some features will be disabled")
+    nba_teams = None
+# global ScoreboardV2 import removed; lazy import performed inside update_correct
 
 # Load environment variables from .env if present
 env_path = os.path.join(os.path.dirname(__file__), '../.env')
@@ -23,6 +29,59 @@ if os.path.exists(env_path):
                 continue
             key, val = line.split('=', 1)
             os.environ.setdefault(key, val)
+
+
+# Debugging helper: update 'correct' column based on NBA API results
+def update_correct(df):
+    print(f"DEBUG update_correct: starting with df shape {df.shape}")
+    # lazy import to avoid global dependency
+    try:
+        from nba_api.stats.endpoints import ScoreboardV2
+    except ImportError:
+        print("DEBUG update_correct: nba_api ScoreboardV2 not available, skipping update")
+        return df
+    if 'correct' not in df.columns:
+        df['correct'] = np.nan
+        print("DEBUG update_correct: added 'correct' column")
+    now_utc = datetime.now(timezone.utc)
+    for idx, row in df.iterrows():
+        if pd.isna(row.get('correct')):
+            ct = row.get('commence_time')
+            if not isinstance(ct, str):
+                continue
+            ct2 = ct.replace('Z', '+00:00') if ct.endswith('Z') else ct
+            try:
+                cdt = datetime.fromisoformat(ct2)
+            except Exception:
+                continue
+            print(f"DEBUG update_correct: checking game {row.get('event_id')} at {cdt}")
+            if cdt < now_utc:
+                date_str = cdt.strftime('%m/%d/%Y')
+                try:
+                    sb = ScoreboardV2(game_date=date_str)
+                    dfs = sb.get_data_frames()
+                    if len(dfs) > 1:
+                        ls = dfs[1]
+                        hm = ls['TEAM_ABBREVIATION'] == row.get('home_abbr')
+                        am = ls['TEAM_ABBREVIATION'] == row.get('away_abbr')
+                        if hm.any() and am.any():
+                            home_pts = int(ls.loc[hm, 'PTS'].values[0])
+                            away_pts = int(ls.loc[am, 'PTS'].values[0])
+                            winner = 'home' if home_pts > away_pts else 'away'
+                            predicted = 'home' if float(row.get('home_prob', 0)) > float(
+                                row.get('away_prob', 0)) else 'away'
+                            result = (winner == predicted)
+                            df.at[idx, 'correct'] = result
+                            print(
+                                f"DEBUG update_correct: game {row.get('event_id')} winner={winner}, predicted={predicted}, correct={result}")
+                        else:
+                            print(
+                                f"WARNING: no matching teams for game {row.get('home_abbr')} vs {row.get('away_abbr')} on {date_str}")
+                except Exception as e:
+                    print(f"WARNING: Failed to fetch result for game on {ct}: {e}")
+    print("DEBUG update_correct: finished processing")
+    return df
+
 
 def main():
     # API key
@@ -57,7 +116,7 @@ def main():
 
     # Filter for games in next 7 days
     now = datetime.now(timezone.utc) - timedelta(days=1)
-    week_later = now + timedelta(days=7)
+    week_later = now + timedelta(days=8)
     upcoming = []
     for ev in events:
         ct = ev.get('commence_time')
@@ -85,29 +144,23 @@ def main():
         home = ev.get('home_team')
         print(f"{i}. {away} @ {home} at {ev.get('commence_time')}")
 
-    # Ask user whether to (re)compute odds or load existing
     odds_path = os.path.join('data', 'game_odds.csv')
-    choice = input("Calculate odds for these games? [y/n]: ").strip().lower()
-    calculate = choice in ('y', 'yes')
-    existing_df = None
-    if not calculate:
-        if os.path.exists(odds_path):
-            existing_df = pd.read_csv(odds_path)
-            if 'event_id' not in existing_df.columns:
-                print("Existing odds file missing 'event_id'; recalculating all.")
-                calculate = True
-            else:
-                seen = set(existing_df['event_id'].astype(str))
-                missing = [ev for ev in upcoming if str(ev.get('id')) not in seen]
-                if not missing:
-                    print("All upcoming games already have odds:")
-                    print(existing_df.to_string(index=False))
-                    sys.exit(0)
-                upcoming = missing
-                print(f"Calculating odds for {len(upcoming)} new games...")
-        else:
-            print("No existing odds file; calculating all games.")
-            calculate = True
+    existing_df = pd.read_csv(odds_path)
+    if 'event_id' not in existing_df.columns:
+        print("Existing odds file missing 'event_id'; recalculating all.")
+    else:
+        # update past game correctness
+        existing_df = update_correct(existing_df)
+        seen = set(existing_df['event_id'].astype(str))
+        missing = [ev for ev in upcoming if str(ev.get('id')) not in seen]
+        if not missing:
+            os.makedirs('data', exist_ok=True)
+            existing_df.to_csv(odds_path, index=False)
+            print("Updated past game results; no new games to calculate")
+            print(existing_df.to_string(index=False))
+            sys.exit(0)
+        upcoming = missing
+        print(f"Calculating odds for {len(upcoming)} new games...")
 
     # Load trained model
     mdl_path = os.path.join('../models', 'best_player_model.pkl')
@@ -189,15 +242,33 @@ def main():
         })
 
     df_new = pd.DataFrame(records)
-    # merge with existing if needed
-    if existing_df is not None and not calculate:
+    # merge with existing if needed (always merge to preserve historical data)
+    if existing_df is not None:
         df_out = pd.concat([existing_df, df_new], ignore_index=True)
     else:
         df_out = df_new
+    # update past game correctness for output
+    df_out = update_correct(df_out)
     os.makedirs('data', exist_ok=True)
     df_out.to_csv(odds_path, index=False)
     print(f"Saved odds to {odds_path}")
     print(df_out.to_string(index=False))
 
+
 if __name__ == '__main__':
+    # support update-only mode before full execution
+    if '--update-only' in sys.argv:
+        odds_path = os.path.join('data', 'game_odds.csv')
+        print("DEBUG: running in update-only mode")
+        if os.path.exists(odds_path):
+            df = pd.read_csv(odds_path)
+            print(f"DEBUG: loaded existing file with shape {df.shape}")
+            df = update_correct(df)
+            print(f"DEBUG: after update_correct shape {df.shape}")
+            os.makedirs('data', exist_ok=True)
+            df.to_csv(odds_path, index=False)
+            print(f"DEBUG: saved updated file to {odds_path}")
+        else:
+            print("DEBUG: no existing odds file to update")
+        sys.exit(0)
     main()
