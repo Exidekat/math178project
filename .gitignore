@@ -9,3 +9,6 @@ models/
 
 # Dont persist data in the wrong directories
 odds_regression/data/
+
+#Dont add pickles 
+*.pkl
