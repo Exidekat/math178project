@@ -14,6 +14,10 @@ import pandas as pd
 import numpy as np
 import joblib
 from zoneinfo import ZoneInfo
+try:
+    from tqdm import tqdm
+except ImportError:
+    tqdm = None
 
 try:
     from nba_api.stats.static import teams as nba_teams
@@ -49,7 +53,9 @@ def update_correct(df):
     if 'correct' not in df.columns:
         df['correct'] = np.nan
     now_utc = datetime.now(timezone.utc)
-    for idx, row in df.iterrows():
+    # iterate rows with progress bar if tqdm is available
+    rows_iter = tqdm(df.iterrows(), total=len(df), desc="Updating correctness") if tqdm else df.iterrows()
+    for idx, row in rows_iter:
         if pd.notna(row.get('correct')):
             continue
         ct = row.get('commence_time')
@@ -80,9 +86,9 @@ def update_correct(df):
                         winner = 'home' if home_pts > away_pts else 'away'
                         predicted = 'home' if float(row.get('home_prob', 0)) > float(row.get('away_prob', 0)) else 'away'
                         df.at[idx, 'correct'] = (winner == predicted)
-                time.sleep(0.1)
             except Exception as e:
                 print(f"WARNING: Failed to fetch result for {ct}: {e}")
+        time.sleep(0.1)  # buffer requests
     return df
 
 
@@ -109,7 +115,9 @@ def main():
 
     # fetch game schedule via nba_api ScoreboardV2 over the selected dates
     upcoming = []
-    for d in dates:
+    # use progress bar for fetching schedules if tqdm is available
+    dates_iter = tqdm(dates, desc="Fetching schedules", total=len(dates)) if tqdm else dates
+    for d in dates_iter:
         date_str = d.strftime('%m/%d/%Y')
         try:
             # lazy import to avoid top-level dependency
