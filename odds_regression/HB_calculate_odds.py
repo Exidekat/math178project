@@ -8,6 +8,7 @@ and appends the predictions to the log (data/game_odds.csv).
 """
 import os
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 import pandas as pd
 import numpy as np
@@ -79,6 +80,7 @@ def update_correct(df):
                         winner = 'home' if home_pts > away_pts else 'away'
                         predicted = 'home' if float(row.get('home_prob', 0)) > float(row.get('away_prob', 0)) else 'away'
                         df.at[idx, 'correct'] = (winner == predicted)
+                time.sleep(0.1)
             except Exception as e:
                 print(f"WARNING: Failed to fetch result for {ct}: {e}")
     return df
@@ -247,6 +249,15 @@ def main():
     df_out.to_csv(odds_path, index=False)
     print(f"Saved odds to {odds_path}")
     print(df_out.to_string(index=False))
+    # calculate and print accuracy: ratio of True to False in 'correct' column
+    if 'correct' in df_out.columns:
+        n_true = (df_out['correct'] == True).sum()
+        n_false = (df_out['correct'] == False).sum()
+        try:
+            acc = n_true / (n_true + n_false)
+        except ZeroDivisionError:
+            acc = float('nan')
+        print(f"Accuracy: {acc:0.4f}")
 
 
 if __name__ == '__main__':
