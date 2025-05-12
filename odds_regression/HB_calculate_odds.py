@@ -12,10 +12,10 @@ from datetime import datetime, timedelta, timezone
 import pandas as pd
 import numpy as np
 import joblib
+from zoneinfo import ZoneInfo
 
 try:
     from nba_api.stats.static import teams as nba_teams
-    from nba_api.stats.endpoints import ScoreboardV2
 except ImportError:
     print("ERROR: nba_api is not installed; please install nba_api.")
     sys.exit(1)
@@ -60,7 +60,10 @@ def update_correct(df):
         except Exception:
             continue
         if game_dt < now_utc:
-            date_str = game_dt.strftime('%m/%d/%Y')
+            # convert game datetime (UTC) to US/Eastern to match NBA API's game_date
+            eastern = ZoneInfo("US/Eastern")
+            game_dt_eastern = game_dt.astimezone(eastern)
+            date_str = game_dt_eastern.strftime('%m/%d/%Y')
             try:
                 sb = ScoreboardV2(game_date=date_str)
                 dfs = sb.get_data_frames()
@@ -85,27 +88,14 @@ def main():
     now = datetime.now(timezone.utc)
     # path to stored odds log
     odds_path = os.path.join('data', 'game_odds.csv')
-    # determine end of range: earliest logged event or 7 days ahead
-    earliest_dt = None
-    if os.path.exists(odds_path):
-        try:
-            df_exist = pd.read_csv(odds_path)
-            if 'commence_time' in df_exist.columns:
-                times = pd.to_datetime(df_exist['commence_time'], utc=True, errors='coerce')
-                if not times.dropna().empty:
-                    earliest_dt = times.min().to_pydatetime()
-        except Exception:
-            pass
-    if earliest_dt and earliest_dt > now:
-        end_dt = earliest_dt
-        print(f"Selecting events until earliest logged date: {end_dt.isoformat()}")
-    else:
-        end_dt = now + timedelta(days=7)
-        print(f"Selecting next 7 days until {end_dt.isoformat()}")
+    # select games from the last 7 days through the next 7 days
+    start_dt = now - timedelta(days=7)
+    end_dt = now + timedelta(days=7)
+    print(f"Selecting games from {start_dt.isoformat()} to {end_dt.isoformat()}")
 
     # build list of calendar dates to fetch
     dates = []
-    d = now.date()
+    d = start_dt.date()
     while d <= end_dt.date():
         dates.append(d)
         d += timedelta(days=1)
@@ -115,11 +105,13 @@ def main():
     id_to_abbr = {t['id']: t['abbreviation'] for t in teams}
     id_to_full = {t['id']: t['full_name'] for t in teams}
 
-    # fetch upcoming games via nba_api ScoreboardV2
+    # fetch game schedule via nba_api ScoreboardV2 over the selected dates
     upcoming = []
     for d in dates:
         date_str = d.strftime('%m/%d/%Y')
         try:
+            # lazy import to avoid top-level dependency
+            from nba_api.stats.endpoints import ScoreboardV2
             sb = ScoreboardV2(game_date=date_str)
             dfs = sb.get_data_frames()
             if not dfs:
@@ -133,7 +125,6 @@ def main():
                 g_date = r.get('GAME_DATE_EST')
                 if pd.isna(g_date):
                     continue
-                # assume midnight EST if time not specified
                 dt_naive = pd.to_datetime(g_date).to_pydatetime()
                 est = timezone(timedelta(hours=-5))
                 dt_est = dt_naive.replace(tzinfo=est)
@@ -147,6 +138,9 @@ def main():
                     'home_abbr': id_to_abbr.get(home_id),
                     'away_abbr': id_to_abbr.get(away_id)
                 })
+        except ImportError:
+            print('ERROR: nba_api.stats.endpoints.ScoreboardV2 not available; please install nba_api.')
+            sys.exit(1)
         except Exception as e:
             print(f"WARNING: failed to fetch scoreboard for {date_str}: {e}")
 
