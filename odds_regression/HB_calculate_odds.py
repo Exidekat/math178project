@@ -51,7 +51,8 @@ def update_correct(df):
         print("ERROR: nba_api is not installed; cannot update correctness.")
         return df
     if 'correct' not in df.columns:
-        df['correct'] = np.nan
+        # initialize 'correct' as nullable boolean column
+        df['correct'] = pd.Series(pd.NA, index=df.index, dtype='boolean')
     now_utc = datetime.now(timezone.utc)
     # iterate rows with progress bar if tqdm is available
     rows_iter = tqdm(df.iterrows(), total=len(df), desc="Updating correctness") if tqdm else df.iterrows()
@@ -131,13 +132,23 @@ def main():
                 gid = str(r.get('GAME_ID'))
                 home_id = r.get('HOME_TEAM_ID')
                 away_id = r.get('VISITOR_TEAM_ID')
-                # parse game date (EST)
+                # parse game date (EST) and convert to UTC (avoid dateutil warnings)
                 g_date = r.get('GAME_DATE_EST')
                 if pd.isna(g_date):
                     continue
-                dt_naive = pd.to_datetime(g_date).to_pydatetime()
-                est = timezone(timedelta(hours=-5))
-                dt_est = dt_naive.replace(tzinfo=est)
+                # get native datetime
+                if isinstance(g_date, datetime):
+                    dt_native = g_date
+                else:
+                    tmp = pd.to_datetime(g_date, errors='coerce')
+                    dt_native = tmp.to_pydatetime() if isinstance(tmp, pd.Timestamp) else tmp
+                # apply Eastern timezone
+                eastern = ZoneInfo("US/Eastern")
+                if dt_native.tzinfo is None:
+                    dt_est = dt_native.replace(tzinfo=eastern)
+                else:
+                    dt_est = dt_native.astimezone(eastern)
+                # convert to UTC and format
                 dt_utc = dt_est.astimezone(timezone.utc)
                 ct_str = dt_utc.isoformat().replace('+00:00', 'Z')
                 upcoming.append({
@@ -168,15 +179,24 @@ def main():
         if 'event_id' not in existing_df.columns:
             print("Existing odds file missing 'event_id'; recalculating all.")
         else:
+            # normalize event_id strings: preserve leading zeros
+            existing_df['event_id'] = existing_df['event_id'].astype(str)
+            # determine padding width based on existing and upcoming IDs
+            pad_width = max(
+                existing_df['event_id'].str.len().max(),
+                max(len(ev['id']) for ev in upcoming)
+            )
+            existing_df['event_id'] = existing_df['event_id'].str.zfill(pad_width)
+            # update past game results correctness
             existing_df = update_correct(existing_df)
-            seen = set(existing_df['event_id'].astype(str))
+            # identify new games by event_id
+            seen = set(existing_df['event_id'])
             missing = [ev for ev in upcoming if ev['id'] not in seen]
             if not missing:
                 os.makedirs('data', exist_ok=True)
                 existing_df.to_csv(odds_path, index=False)
                 print("Updated past game results; no new games to calculate")
                 print(existing_df.to_string(index=False))
-                sys.exit(0)
             upcoming = missing
             print(f"Calculating odds for {len(upcoming)} new games...")
 
@@ -198,7 +218,12 @@ def main():
         print("ERROR: team_game_logs.csv not found; cannot compute features.")
         sys.exit(1)
     tdf = pd.read_csv(tpath)
-    tdf['GAME_DATE_DT'] = pd.to_datetime(tdf['GAME_DATE'], errors='coerce')
+    # normalize month abbreviations (e.g., 'APR'->'Apr') and parse GAME_DATE
+    # specify format to avoid per-element dateutil fallback warning
+    tdf['GAME_DATE'] = tdf['GAME_DATE'].str.title()
+    tdf['GAME_DATE_DT'] = pd.to_datetime(
+        tdf['GAME_DATE'], format='%b %d, %Y', errors='coerce'
+    )
 
     def team_feature_diff(home_abbr, away_abbr, ctime):
         # convert to naive UTC for comparison
