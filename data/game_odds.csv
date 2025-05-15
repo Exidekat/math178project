@@ -12,12 +12,12 @@ event_id,commence_time,home_team,away_team,home_abbr,away_abbr,home_prob,away_pr
 0042400233,2025-05-10T04:00:00Z,Golden State Warriors,Minnesota Timberwolves,GSW,MIN,0.004,0.996,True
 0042400224,2025-05-11T04:00:00Z,Denver Nuggets,Oklahoma City Thunder,DEN,OKC,0.996,0.004,False
 0042400204,2025-05-11T04:00:00Z,Indiana Pacers,Cleveland Cavaliers,IND,CLE,0.996,0.004,True
-0042400214,2025-05-12T04:00:00Z,New York Knicks,Boston Celtics,NYK,BOS,0.004,0.996,
-0042400234,2025-05-12T04:00:00Z,Golden State Warriors,Minnesota Timberwolves,GSW,MIN,0.004,0.996,
-0042400205,2025-05-13T04:00:00Z,Cleveland Cavaliers,Indiana Pacers,CLE,IND,0.004,0.996,
-0042400225,2025-05-13T04:00:00Z,Oklahoma City Thunder,Denver Nuggets,OKC,DEN,0.004,0.996,
-0042400215,2025-05-14T04:00:00Z,Boston Celtics,New York Knicks,BOS,NYK,0.996,0.004,
-0042400235,2025-05-14T04:00:00Z,Minnesota Timberwolves,Golden State Warriors,MIN,GSW,0.996,0.004,
+0042400214,2025-05-12T04:00:00Z,New York Knicks,Boston Celtics,NYK,BOS,0.004,0.996,False
+0042400234,2025-05-12T04:00:00Z,Golden State Warriors,Minnesota Timberwolves,GSW,MIN,0.004,0.996,True
+0042400205,2025-05-13T04:00:00Z,Cleveland Cavaliers,Indiana Pacers,CLE,IND,0.004,0.996,True
+0042400225,2025-05-13T04:00:00Z,Oklahoma City Thunder,Denver Nuggets,OKC,DEN,0.004,0.996,False
+0042400215,2025-05-14T04:00:00Z,Boston Celtics,New York Knicks,BOS,NYK,0.996,0.004,True
+0042400235,2025-05-14T04:00:00Z,Minnesota Timberwolves,Golden State Warriors,MIN,GSW,0.996,0.004,True
 0042400206,2025-05-15T04:00:00Z,Indiana Pacers,Cleveland Cavaliers,IND,CLE,0.996,0.004,
 0042400226,2025-05-15T04:00:00Z,Denver Nuggets,Oklahoma City Thunder,DEN,OKC,0.996,0.004,
 0042400216,2025-05-16T04:00:00Z,New York Knicks,Boston Celtics,NYK,BOS,0.004,0.996,
@@ -25,3 +25,5 @@ event_id,commence_time,home_team,away_team,home_abbr,away_abbr,home_prob,away_pr
 0042400227,2025-05-18T04:00:00Z,Oklahoma City Thunder,Denver Nuggets,OKC,DEN,0.004,0.996,
 0042400236,2025-05-18T04:00:00Z,Golden State Warriors,Minnesota Timberwolves,GSW,MIN,0.004,0.996,
 0042400217,2025-05-19T04:00:00Z,Boston Celtics,New York Knicks,BOS,NYK,0.996,0.004,
+0042400237,2025-05-20T04:00:00Z,Minnesota Timberwolves,Golden State Warriors,MIN,GSW,0.996,0.004,
+0042400301,2025-05-21T04:00:00Z,,Indiana Pacers,,IND,0.004,0.996,

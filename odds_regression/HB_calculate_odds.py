@@ -14,16 +14,9 @@ import pandas as pd
 import numpy as np
 import joblib
 from zoneinfo import ZoneInfo
-try:
-    from tqdm import tqdm
-except ImportError:
-    tqdm = None
+from tqdm import tqdm
+from nba_api.stats.static import teams as nba_teams
 
-try:
-    from nba_api.stats.static import teams as nba_teams
-except ImportError:
-    print("ERROR: nba_api is not installed; please install nba_api.")
-    sys.exit(1)
 
 # Load environment variables from .env if present
 env_path = os.path.join(os.path.dirname(__file__), '../.env')
@@ -164,6 +157,7 @@ def main():
             sys.exit(1)
         except Exception as e:
             print(f"WARNING: failed to fetch scoreboard for {date_str}: {e}")
+        time.sleep(0.25)  # buffer requests
 
     if not upcoming:
         print("No upcoming NBA games found in the specified date range.")
