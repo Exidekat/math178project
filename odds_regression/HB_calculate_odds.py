@@ -91,7 +91,7 @@ def main():
     # path to stored odds log
     odds_path = os.path.join('data', 'game_odds.csv')
     # select games from the last 7 days through the next 7 days
-    start_dt = now - timedelta(days=7)
+    start_dt = now - timedelta(days=31)
     end_dt = now + timedelta(days=7)
     print(f"Selecting games from {start_dt.isoformat()} to {end_dt.isoformat()}")
 
@@ -244,8 +244,23 @@ def main():
         away_abbr = ev['away_abbr']
         ct = ev['commence_time']
         ctime = datetime.fromisoformat(ct.replace('Z', '+00:00'))
+
+        # --- Build features to match training ---
+        # Player features: zeros (unknown lineups for future games)
         Xr = np.zeros(n_players)
-        Xs = np.zeros(len(stats_cols))
+        # Stat features: use season averages for each stat, home minus away
+        def team_stat_avg(abbr, before_dt):
+            # Ensure before_dt is timezone-naive UTC to match GAME_DATE_DT
+            if hasattr(before_dt, 'tzinfo') and before_dt.tzinfo is not None:
+                before_dt = before_dt.astimezone(timezone.utc).replace(tzinfo=None)
+            team_games = tdf[(tdf['TEAM_ABBREVIATION'] == abbr) & (tdf['GAME_DATE_DT'] < before_dt)]
+            if team_games.empty:
+                return np.zeros(len(stats_cols))
+            return team_games[stats_cols].mean().values
+        home_stats = team_stat_avg(home_abbr, ctime)
+        away_stats = team_stat_avg(away_abbr, ctime)
+        Xs = home_stats - away_stats
+        # Team features (already implemented)
         Xt = team_feature_diff(home_abbr, away_abbr, ctime)
         Xc = np.hstack([Xr, Xs, Xt]).reshape(1, -1)
         pred = model.predict(Xc)[0]
